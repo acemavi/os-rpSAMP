@@ -226,3 +226,51 @@ Callback: Impound_Load
 Query: SELECT * FROM `impoundlots`
 Error: Table 'osrp.impoundlots' doesn't exist
 
+[2025-05-06 00:05]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+[2025-05-07 15:04]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+[2025-05-07 15:10]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+[2025-05-07 15:15]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+[2025-05-07 19:32]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+[2025-05-07 19:38]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+[2025-05-07 19:39]
+Error ID: 1054
+Callback: 
+Query: UPDATE `users` SET adminlevel = 10, addeddate = '2025-05-07 19:39' WHERE uid = 2
+Error: Unknown column 'addeddate' in 'field list'
+
+[2025-05-07 19:39]
+Error ID: 1146
+Callback: 
+Query: INSERT INTO log_secretadmin VALUES(null, NOW(), 'Jordan_Newman (uid: 2) used /makemesecretadmin')
+Error: Table 'osrp.log_secretadmin' doesn't exist
+

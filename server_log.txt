@@ -3222,3 +3222,1202 @@ Console input: makeadmin 0
 [05:11:28]   YSF - kurta999's version R19 unloaded
 
 [05:11:28]  ==============
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:03:34] filterscripts = ""  (string)
+[00:03:34] password = ""  (string)
+[00:03:34] 
+[00:03:34] Server Plugins
+[00:03:34] --------------
+[00:03:34]  Loading plugin: crashdetect
+[00:03:34]   CrashDetect v4.18.1 is OK.
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: pawncmd
+[00:03:34] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: sscanf
+[00:03:34] 
+
+[00:03:34]  ===============================
+
+[00:03:34]       sscanf plugin loaded.     
+
+[00:03:34]          Version:  2.8.2        
+
+[00:03:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:03:34]  ===============================
+
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: streamer
+[00:03:34] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: mysql
+[00:03:34]  >> plugin.mysql: R39-5 successfully loaded.
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: Whirlpool
+[00:03:34]  
+[00:03:34]  ==================
+[00:03:34]  
+[00:03:34]   Whirlpool loaded
+[00:03:34]  
+[00:03:34]  ==================
+[00:03:34]  
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: SKY
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: regex
+[00:03:34] 
+
+[00:03:34] ______________________________________
+
+[00:03:34]  Regular Expression Plugin v0.2.1 loaded
+[00:03:34] ______________________________________
+
+[00:03:34]  By: Fro (c) Copyright <TBG> 2009-2011
+[00:03:34] ______________________________________
+
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: YSF
+[00:03:34] ARRAY_ConsoleCommands: 4e43d8
+[00:03:34] 
+
+[00:03:34]  ===============================
+
+[00:03:34]         YSF - kurta999's version R19 loaded
+
+[00:03:34]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[00:03:34]     Server version: 0.3.7 R2-1
+
+[00:03:34]     Operating System: Windows
+
+[00:03:34]     Built on: Mar 11 2017 at 10:32:34
+
+[00:03:34]  ===============================
+
+[00:03:34]   Loaded.
+[00:03:34]  Loading plugin: nativechecker
+[00:03:34]   Loaded.
+[00:03:34]  Loaded 10 plugins.
+
+[00:03:34] 
+[00:03:34] Filterscripts
+[00:03:34] ---------------
+[00:03:34]   Loaded 0 filterscripts.
+
+[00:03:34]  
+[00:03:34]  
+[00:03:34]  
+[00:03:34]  ======================================= 
+[00:03:34]  |                                     | 
+[00:03:34]  |        YSI version 4.00.0001        | 
+[00:03:34]  |        By Alex "Y_Less" Cole        | 
+[00:03:34]  |                                     | 
+[00:03:34]  ======================================= 
+[00:03:34]  
+[00:03:36] Old School Roleplay is loading...
+[00:03:40] [ERROR] - Unable to establish a connection with the MySQL server...
+[00:03:40] Number of vehicle models: 0
+[00:03:40] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:05:13] filterscripts = ""  (string)
+[00:05:13] password = ""  (string)
+[00:05:13] 
+[00:05:13] Server Plugins
+[00:05:13] --------------
+[00:05:13]  Loading plugin: crashdetect
+[00:05:13]   CrashDetect v4.18.1 is OK.
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: pawncmd
+[00:05:13] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: sscanf
+[00:05:13] 
+
+[00:05:13]  ===============================
+
+[00:05:13]       sscanf plugin loaded.     
+
+[00:05:13]          Version:  2.8.2        
+
+[00:05:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:05:13]  ===============================
+
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: streamer
+[00:05:13] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: mysql
+[00:05:13]  >> plugin.mysql: R39-5 successfully loaded.
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: Whirlpool
+[00:05:13]  
+[00:05:13]  ==================
+[00:05:13]  
+[00:05:13]   Whirlpool loaded
+[00:05:13]  
+[00:05:13]  ==================
+[00:05:13]  
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: SKY
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: regex
+[00:05:13] 
+
+[00:05:13] ______________________________________
+
+[00:05:13]  Regular Expression Plugin v0.2.1 loaded
+[00:05:13] ______________________________________
+
+[00:05:13]  By: Fro (c) Copyright <TBG> 2009-2011
+[00:05:13] ______________________________________
+
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: YSF
+[00:05:13] ARRAY_ConsoleCommands: 4e43d8
+[00:05:13] 
+
+[00:05:13]  ===============================
+
+[00:05:13]         YSF - kurta999's version R19 loaded
+
+[00:05:13]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[00:05:13]     Server version: 0.3.7 R2-1
+
+[00:05:13]     Operating System: Windows
+
+[00:05:13]     Built on: Mar 11 2017 at 10:32:34
+
+[00:05:13]  ===============================
+
+[00:05:13]   Loaded.
+[00:05:13]  Loading plugin: nativechecker
+[00:05:13]   Loaded.
+[00:05:13]  Loaded 10 plugins.
+
+[00:05:13] 
+[00:05:13] Filterscripts
+[00:05:13] ---------------
+[00:05:13]   Loaded 0 filterscripts.
+
+[00:05:13]  
+[00:05:13]  
+[00:05:13]  
+[00:05:13]  ======================================= 
+[00:05:13]  |                                     | 
+[00:05:13]  |        YSI version 4.00.0001        | 
+[00:05:13]  |        By Alex "Y_Less" Cole        | 
+[00:05:13]  |                                     | 
+[00:05:13]  ======================================= 
+[00:05:13]  
+[00:05:15] Old School Roleplay is loading...
+[00:05:15] Saving server information on mysql...
+[00:05:15] Get shit on by Anti-DeAMX
+[00:05:15] LSPD Map has been loaded successfully
+[00:05:15] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOO??????????????????OOOO????SSSSSS				   
+[00:05:15] OOOO??????????????????OOOO????SSSSSS				   
+[00:05:15] OOOO????ooooooooo?????OOOO????SSSSSS				   
+[00:05:15] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOO????ooooooooo?????OOOO????????????????????SSSSSS
+[00:05:15] OOOO??????????????????OOOO????????????????????SSSSSS
+[00:05:15] OOOO??????????????????OOOO????????????????????SSSSSS
+[00:05:15] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[00:05:15] ______________________________________________
+[00:05:15] | Old School Roleplay by REFUZiON	        |
+[00:05:15] | Gamemode loaded successfully.              |
+[00:05:15] ______________________________________________
+[00:05:15] 169 objects loaded.
+[00:05:15] Number of vehicle models: 16
+[00:05:15] [Script] 0 houses loaded.
+[00:05:15] (SQL) 0 furniture loaded.
+[00:05:15] [Script] 0 garages loaded.
+[00:05:15] [Script] 0 businesses loaded.
+[00:05:15] [Script] 0 entrances loaded.
+[00:05:15] [Script] 0 factions loaded.
+[00:05:15] [Script] 0 lands loaded.
+[00:05:15] [Script] 0 gangs loaded.
+[00:05:15] [Script] 0 points loaded.
+[00:05:15] [Script] 0 turfs loaded.
+[00:05:15] [Script] 0 locations loaded
+[00:05:15] [Script] 0 crews loaded
+[00:05:15] [Script] 0 atms loaded
+[00:05:15] [2025-05-06 00:05]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+
+[00:05:15] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[00:05:15] [Script] 0 vips removed.
+[00:08:23] [connection] 192.168.1.23:53779 requests connection cookie.
+[00:08:24] [connection] incoming connection: 192.168.1.23:53779 id: 0
+[00:08:25] [join] Newbie_Jordan has joined the server (0:192.168.1.23)
+[00:08:25] The request failed! The response code was: 301
+[00:08:56] Spawned player on spawn 2
+[00:08:56] OnPlayerSpawn: Newbie Jordan[0] has just spawned on Old School Roleplay for the first time!
+[00:09:02] [zcmd] [Newbie_Jordan]:locate 
+[00:09:06] [zcmd] [Newbie_Jordan]:locate 
+[00:09:12] [zcmd] [Newbie_Jordan]:locate 
+[00:09:15] [zcmd] [Newbie_Jordan]:locate 
+[00:09:21] [zcmd] [Newbie_Jordan]:makeadmin 
+[00:09:23] [part] Newbie_Jordan has left the server (0:1)
+[00:10:52] [connection] 192.168.1.23:57480 requests connection cookie.
+[00:10:53] [connection] incoming connection: 192.168.1.23:57480 id: 0
+[00:10:53] [join] Newbie_Jordan has joined the server (0:192.168.1.23)
+[00:10:54] The request failed! The response code was: 301
+[00:11:02] [zcmd] [Newbie_Jordan]:a .
+[00:11:05] [zcmd] [Newbie_Jordan]:ah 
+[00:11:11] [zcmd] [Newbie_Jordan]:serversetting 
+[00:11:13] [zcmd] [Newbie_Jordan]:serversettings 
+[00:11:19] [zcmd] [Newbie_Jordan]:doublexp 
+[00:11:22] [zcmd] [Newbie_Jordan]:doublexp 
+[00:11:26] [zcmd] [Newbie_Jordan]:enddoublexp 
+[00:11:29] [zcmd] [Newbie_Jordan]:a .
+[00:11:34] [zcmd] [Newbie_Jordan]:adminstrike 
+[00:11:42] [zcmd] [Newbie_Jordan]:giveachievement 
+[00:11:46] [zcmd] [Newbie_Jordan]:giveachievement 0 Test
+[00:11:50] [zcmd] [Newbie_Jordan]:giveachievement 0 1
+[00:11:52] [zcmd] [Newbie_Jordan]:giveachievement 0
+[00:11:56] [zcmd] [Newbie_Jordan]:giveachievement 0 Gibson
+[00:12:46] [zcmd] [Newbie_Jordan]:phrewards 
+[00:12:58] [zcmd] [Newbie_Jordan]:stats 
+[00:13:01] [zcmd] [Newbie_Jordan]:inv 
+[00:13:06] [zcmd] [Newbie_Jordan]:adminname 
+[00:13:11] [zcmd] [Newbie_Jordan]:setadminname 
+[00:13:21] [zcmd] [Newbie_Jordan]:setadminname 
+[00:13:30] [zcmd] [Newbie_Jordan]:setadminname 0 Venice
+[00:13:30] AdmCmd: Newbie_Jordan changed Newbie_Jordan's administrator name to Venice.
+[00:13:32] [zcmd] [Newbie_Jordan]:aduty 
+[00:13:32] AdmCmd: Newbie Jordan is now on admin duty.
+[00:13:32] [nick] Newbie_Jordan nick changed to Venice
+[00:13:35] [zcmd] [Venice]:stats 
+[00:13:42] [zcmd] [Venice]:giveachievement 
+[00:13:48] [zcmd] [Venice]:giveachievement 0 Addicted
+[00:13:50] [zcmd] [Venice]:ah 
+[00:13:54] [zcmd] [Venice]:setvip 
+[00:13:57] [zcmd] [Venice]:dynamichelp 
+[00:14:07] [zcmd] [Venice]:dynamichelp entrances
+[00:14:11] [zcmd] [Venice]:dynamichelp gangs
+[00:14:17] [zcmd] [Venice]:dynamichelp payphones
+[00:14:23] [zcmd] [Venice]:dynamichelp points
+[00:14:26] [zcmd] [Venice]:dynamichelp house
+[00:14:35] [zcmd] [Venice]:goto 
+[00:14:37] [zcmd] [Venice]:seatbelt 
+[00:14:44] [zcmd] [Venice]:seatbelt 
+[00:14:55] [zcmd] [Venice]:engine 
+[00:14:57] [zcmd] [Venice]:engine 
+[00:15:00] [zcmd] [Venice]:engine 
+[00:15:19] [zcmd] [Venice]:myvouchers 
+[00:15:22] [zcmd] [Venice]:vouchers 
+[00:15:25] [zcmd] [Venice]:give 
+[00:15:30] [zcmd] [Venice]:setstat 
+[00:15:38] [zcmd] [Venice]:goto ls
+[00:15:44] [zcmd] [Venice]:veh 522
+[00:15:44] AdmCmd: Venice spawned a NRG-500.
+[00:15:45] [zcmd] [Venice]:seatbelt 
+[00:15:58] [zcmd] [Venice]:goto vip
+[00:16:10] [zcmd] [Venice]:goto vip
+[00:16:23] [zcmd] [Venice]:goto ls
+[00:16:36] [zcmd] [Venice]:god 
+[00:16:46] [zcmd] [Venice]:goto 
+[00:16:49] [zcmd] [Venice]:goto dmv
+[00:17:02] [zcmd] [Venice]:taketest 
+[00:17:16] [zcmd] [Venice]:seatbelt 
+[00:18:58] [zcmd] [Venice]:paytickets 
+[00:19:08] [zcmd] [Venice]:vst 
+[00:19:10] [zcmd] [Venice]:givepveh 
+[00:19:16] [zcmd] [Venice]:givepveh 0 560
+[00:19:19] [zcmd] [Venice]:givepveh 0 560 0 0
+[00:19:19] AdmCmd: Venice has given Venice their own Sultan.
+[00:19:21] [zcmd] [Venice]:vst 
+[00:19:28] [zcmd] [Venice]:seatbelt 
+[00:19:48] [zcmd] [Venice]:jobhelp 
+[00:19:52] [zcmd] [Venice]:jobs 
+[00:19:53] [zcmd] [Venice]:joblist 
+[00:19:55] [zcmd] [Venice]:listjobs 
+[00:19:56] [zcmd] [Venice]:listjob 
+[00:20:10] [zcmd] [Venice]:gate 
+[00:20:17] [zcmd] [Venice]:setfaction 
+[00:20:21] [zcmd] [Venice]:dynamichelp 
+[00:20:24] [zcmd] [Venice]:dynamichelp factions
+[00:20:29] [zcmd] [Venice]:factions 
+[00:20:33] [zcmd] [Venice]:createfaction 
+[00:20:38] [zcmd] [Venice]:ah 
+[00:20:55] [zcmd] [Venice]:obscurent 
+[00:20:57] [zcmd] [Venice]:obscurent 1
+[00:20:57] AdmCmd: Venice has enabled nametags obfuscation.
+[00:20:59] [zcmd] [Venice]:obscurent 2
+[00:21:00] [zcmd] [Venice]:obscurent 0
+[00:21:00] AdmCmd: Venice has disabled nametags obfuscation.
+[00:21:03] [zcmd] [Venice]:ovips 
+[00:21:05] [zcmd] [Venice]:setvip 
+[00:21:08] [zcmd] [Venice]:setvip 0 3 365
+[00:21:08] sscanf warning: Format specifier does not match parameter count.
+[00:21:08] AdmCmd: Venice has given a {D909D9}Legendary{FF6347} VIP package to Venice for 12 months.
+[00:21:18] [zcmd] [Venice]:forcedeleteobject 
+[00:21:25] [zcmd] [Venice]:disablevpn 
+[00:21:27] [zcmd] [Venice]:disablevpn 1
+[00:21:27] AdmCmd: Venice has disabled joining with VPN.
+[00:21:29] [zcmd] [Venice]:disablevpn 0
+[00:21:29] AdmCmd: Venice has enabled joining with VPN.
+[00:21:36] [zcmd] [Venice]:inactivecheck 
+[00:21:38] [zcmd] [Venice]:changelist 
+[00:21:49] [zcmd] [Venice]:dynamichelp 
+[00:21:55] [zcmd] [Venice]:dynamichelp businesses
+[00:21:59] [zcmd] [Venice]:createbiz 
+[00:22:03] [zcmd] [Venice]:goto lv
+[00:22:10] [zcmd] [Venice]:createbiz 
+[00:22:18] [zcmd] [Venice]:dynamichelp 
+[00:22:22] [zcmd] [Venice]:dynamichelp businesses
+[00:22:26] [zcmd] [Venice]:createbiz 
+[00:22:29] [zcmd] [Venice]:createbiz 8
+[00:22:29] AdmCmd: {D909D9}Management{FF6347} Venice has created a business id 0, type 7.
+[00:22:32] [zcmd] [Venice]:buy 
+[00:22:52] [zcmd] [Venice]:createbiz 1
+[00:22:57] [zcmd] [Venice]:createbiz 1
+[00:22:57] AdmCmd: {D909D9}Management{FF6347} Venice has created a business id 1, type 0.
+[00:23:01] [zcmd] [Venice]:buy 
+[00:24:01] [zcmd] [Venice]:createbiz 
+[00:24:03] [zcmd] [Venice]:createbiz 5
+[00:24:03] AdmCmd: {D909D9}Management{FF6347} Venice has created a business id 2, type 4.
+[00:24:07] [zcmd] [Venice]:buy 
+[00:46:57] [zcmd] [Venice]:ah 
+[00:47:05] [zcmd] [Venice]:previewint 
+[00:47:07] [zcmd] [Venice]:previewint 1
+[00:47:08] [zcmd] [Venice]:previewint 2
+[00:47:17] [zcmd] [Venice]:givecookie 
+[00:47:21] [zcmd] [Venice]:givecookie 0 500
+[00:47:21] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[00:47:21] AdmCmd: Venice has given a {089DCE}cookie{FF6347} to Venice, reason: 500
+[00:47:24] [zcmd] [Venice]:cookiehelp 
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:04:33] filterscripts = ""  (string)
+[15:04:33] password = ""  (string)
+[15:04:33] 
+[15:04:33] Server Plugins
+[15:04:33] --------------
+[15:04:33]  Loading plugin: crashdetect
+[15:04:33]   CrashDetect v4.18.1 is OK.
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: pawncmd
+[15:04:33] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: sscanf
+[15:04:33] 
+
+[15:04:33]  ===============================
+
+[15:04:33]       sscanf plugin loaded.     
+
+[15:04:33]          Version:  2.8.2        
+
+[15:04:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:04:33]  ===============================
+
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: streamer
+[15:04:33] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: mysql
+[15:04:33]  >> plugin.mysql: R39-5 successfully loaded.
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: Whirlpool
+[15:04:33]  
+[15:04:33]  ==================
+[15:04:33]  
+[15:04:33]   Whirlpool loaded
+[15:04:33]  
+[15:04:33]  ==================
+[15:04:33]  
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: SKY
+[15:04:33]   Loaded.
+[15:04:33]  Loading plugin: regex
+[15:04:34] 
+
+[15:04:34] ______________________________________
+
+[15:04:34]  Regular Expression Plugin v0.2.1 loaded
+[15:04:34] ______________________________________
+
+[15:04:34]  By: Fro (c) Copyright <TBG> 2009-2011
+[15:04:34] ______________________________________
+
+[15:04:34]   Loaded.
+[15:04:34]  Loading plugin: YSF
+[15:04:34] ARRAY_ConsoleCommands: 4e43d8
+[15:04:34] 
+
+[15:04:34]  ===============================
+
+[15:04:34]         YSF - kurta999's version R19 loaded
+
+[15:04:34]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[15:04:34]     Server version: 0.3.7 R2-1
+
+[15:04:34]     Operating System: Windows
+
+[15:04:34]     Built on: Mar 11 2017 at 10:32:34
+
+[15:04:34]  ===============================
+
+[15:04:34]   Loaded.
+[15:04:34]  Loading plugin: nativechecker
+[15:04:34]   Loaded.
+[15:04:34]  Loaded 10 plugins.
+
+[15:04:34] 
+[15:04:34] Filterscripts
+[15:04:34] ---------------
+[15:04:34]   Loaded 0 filterscripts.
+
+[15:04:34]  
+[15:04:34]  
+[15:04:34]  
+[15:04:34]  ======================================= 
+[15:04:34]  |                                     | 
+[15:04:34]  |        YSI version 4.00.0001        | 
+[15:04:34]  |        By Alex "Y_Less" Cole        | 
+[15:04:34]  |                                     | 
+[15:04:34]  ======================================= 
+[15:04:34]  
+[15:04:36] Old School Roleplay is loading...
+[15:04:36] Saving server information on mysql...
+[15:04:36] Get shit on by Anti-DeAMX
+[15:04:36] LSPD Map has been loaded successfully
+[15:04:36] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOO??????????????????OOOO????SSSSSS				   
+[15:04:36] OOOO??????????????????OOOO????SSSSSS				   
+[15:04:36] OOOO????ooooooooo?????OOOO????SSSSSS				   
+[15:04:36] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOO????ooooooooo?????OOOO????????????????????SSSSSS
+[15:04:36] OOOO??????????????????OOOO????????????????????SSSSSS
+[15:04:36] OOOO??????????????????OOOO????????????????????SSSSSS
+[15:04:36] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:04:36] ______________________________________________
+[15:04:36] | Old School Roleplay by REFUZiON	        |
+[15:04:36] | Gamemode loaded successfully.              |
+[15:04:36] ______________________________________________
+[15:04:36] 169 objects loaded.
+[15:04:36] Number of vehicle models: 16
+[15:04:36] [Script] 0 houses loaded.
+[15:04:36] (SQL) 0 furniture loaded.
+[15:04:36] [Script] 0 garages loaded.
+[15:04:36] [Script] 3 businesses loaded.
+[15:04:36] [Script] 0 entrances loaded.
+[15:04:36] [Script] 0 factions loaded.
+[15:04:36] [Script] 0 lands loaded.
+[15:04:36] [Script] 0 gangs loaded.
+[15:04:36] [Script] 0 points loaded.
+[15:04:36] [Script] 0 turfs loaded.
+[15:04:36] [Script] 0 locations loaded
+[15:04:36] [Script] 0 crews loaded
+[15:04:36] [Script] 0 atms loaded
+[15:04:36] [2025-05-07 15:04]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+
+[15:04:36] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[15:04:36] [Script] 0 vips removed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:10:04] filterscripts = ""  (string)
+[15:10:04] password = ""  (string)
+[15:10:04] 
+[15:10:04] Server Plugins
+[15:10:04] --------------
+[15:10:04]  Loading plugin: crashdetect
+[15:10:04]   CrashDetect v4.18.1 is OK.
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: pawncmd
+[15:10:04] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: sscanf
+[15:10:04] 
+
+[15:10:04]  ===============================
+
+[15:10:04]       sscanf plugin loaded.     
+
+[15:10:04]          Version:  2.8.2        
+
+[15:10:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:10:04]  ===============================
+
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: streamer
+[15:10:04] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: mysql
+[15:10:04]  >> plugin.mysql: R39-5 successfully loaded.
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: Whirlpool
+[15:10:04]  
+[15:10:04]  ==================
+[15:10:04]  
+[15:10:04]   Whirlpool loaded
+[15:10:04]  
+[15:10:04]  ==================
+[15:10:04]  
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: SKY
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: regex
+[15:10:04] 
+
+[15:10:04] ______________________________________
+
+[15:10:04]  Regular Expression Plugin v0.2.1 loaded
+[15:10:04] ______________________________________
+
+[15:10:04]  By: Fro (c) Copyright <TBG> 2009-2011
+[15:10:04] ______________________________________
+
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: YSF
+[15:10:04] ARRAY_ConsoleCommands: 4e43d8
+[15:10:04] 
+
+[15:10:04]  ===============================
+
+[15:10:04]         YSF - kurta999's version R19 loaded
+
+[15:10:04]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[15:10:04]     Server version: 0.3.7 R2-1
+
+[15:10:04]     Operating System: Windows
+
+[15:10:04]     Built on: Mar 11 2017 at 10:32:34
+
+[15:10:04]  ===============================
+
+[15:10:04]   Loaded.
+[15:10:04]  Loading plugin: nativechecker
+[15:10:04]   Loaded.
+[15:10:04]  Loaded 10 plugins.
+
+[15:10:04] 
+[15:10:04] Filterscripts
+[15:10:04] ---------------
+[15:10:04]   Loaded 0 filterscripts.
+
+[15:10:04]  
+[15:10:04]  
+[15:10:04]  
+[15:10:04]  ======================================= 
+[15:10:04]  |                                     | 
+[15:10:04]  |        YSI version 4.00.0001        | 
+[15:10:04]  |        By Alex "Y_Less" Cole        | 
+[15:10:04]  |                                     | 
+[15:10:04]  ======================================= 
+[15:10:04]  
+[15:10:06] Old School Roleplay is loading...
+[15:10:06] Saving server information on mysql...
+[15:10:06] Get shit on by Anti-DeAMX
+[15:10:06] LSPD Map has been loaded successfully
+[15:10:06] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOO??????????????????OOOO????SSSSSS				   
+[15:10:06] OOOO??????????????????OOOO????SSSSSS				   
+[15:10:06] OOOO????ooooooooo?????OOOO????SSSSSS				   
+[15:10:06] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOO????ooooooooo?????OOOO????????????????????SSSSSS
+[15:10:06] OOOO??????????????????OOOO????????????????????SSSSSS
+[15:10:06] OOOO??????????????????OOOO????????????????????SSSSSS
+[15:10:06] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:10:06] ______________________________________________
+[15:10:06] | Old School Roleplay by REFUZiON	        |
+[15:10:06] | Gamemode loaded successfully.              |
+[15:10:06] ______________________________________________
+[15:10:06] 169 objects loaded.
+[15:10:06] Number of vehicle models: 16
+[15:10:06] [Script] 0 houses loaded.
+[15:10:06] (SQL) 0 furniture loaded.
+[15:10:06] [Script] 0 garages loaded.
+[15:10:06] [Script] 3 businesses loaded.
+[15:10:06] [Script] 0 entrances loaded.
+[15:10:06] [Script] 0 factions loaded.
+[15:10:06] [Script] 0 lands loaded.
+[15:10:06] [Script] 0 gangs loaded.
+[15:10:06] [Script] 0 points loaded.
+[15:10:06] [Script] 0 turfs loaded.
+[15:10:06] [Script] 0 locations loaded
+[15:10:06] [Script] 0 crews loaded
+[15:10:06] [Script] 0 atms loaded
+[15:10:06] [2025-05-07 15:10]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+
+[15:10:06] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[15:10:06] [Script] 0 vips removed.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:15:21] filterscripts = ""  (string)
+[15:15:21] password = ""  (string)
+[15:15:21] 
+[15:15:21] Server Plugins
+[15:15:21] --------------
+[15:15:21]  Loading plugin: crashdetect
+[15:15:21]   CrashDetect v4.18.1 is OK.
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: pawncmd
+[15:15:21] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: sscanf
+[15:15:21] 
+
+[15:15:21]  ===============================
+
+[15:15:21]       sscanf plugin loaded.     
+
+[15:15:21]          Version:  2.8.2        
+
+[15:15:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:15:21]  ===============================
+
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: streamer
+[15:15:21] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: mysql
+[15:15:21]  >> plugin.mysql: R39-5 successfully loaded.
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: Whirlpool
+[15:15:21]  
+[15:15:21]  ==================
+[15:15:21]  
+[15:15:21]   Whirlpool loaded
+[15:15:21]  
+[15:15:21]  ==================
+[15:15:21]  
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: SKY
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: regex
+[15:15:21] 
+
+[15:15:21] ______________________________________
+
+[15:15:21]  Regular Expression Plugin v0.2.1 loaded
+[15:15:21] ______________________________________
+
+[15:15:21]  By: Fro (c) Copyright <TBG> 2009-2011
+[15:15:21] ______________________________________
+
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: YSF
+[15:15:21] ARRAY_ConsoleCommands: 4e43d8
+[15:15:21] 
+
+[15:15:21]  ===============================
+
+[15:15:21]         YSF - kurta999's version R19 loaded
+
+[15:15:21]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[15:15:21]     Server version: 0.3.7 R2-1
+
+[15:15:21]     Operating System: Windows
+
+[15:15:21]     Built on: Mar 11 2017 at 10:32:34
+
+[15:15:21]  ===============================
+
+[15:15:21]   Loaded.
+[15:15:21]  Loading plugin: nativechecker
+[15:15:21]   Loaded.
+[15:15:21]  Loaded 10 plugins.
+
+[15:15:21] 
+[15:15:21] Filterscripts
+[15:15:21] ---------------
+[15:15:21]   Loaded 0 filterscripts.
+
+[15:15:21]  
+[15:15:21]  
+[15:15:21]  
+[15:15:21]  ======================================= 
+[15:15:21]  |                                     | 
+[15:15:21]  |        YSI version 4.00.0001        | 
+[15:15:21]  |        By Alex "Y_Less" Cole        | 
+[15:15:21]  |                                     | 
+[15:15:21]  ======================================= 
+[15:15:21]  
+[15:15:22] District Roleplay is loading...
+[15:15:22] Saving server information on mysql...
+[15:15:22] Get shit on by Anti-DeAMX
+[15:15:22] LSPD Map has been loaded successfully
+[15:15:22] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOO??????????????????OOOO????SSSSSS				   
+[15:15:22] OOOO??????????????????OOOO????SSSSSS				   
+[15:15:22] OOOO????ooooooooo?????OOOO????SSSSSS				   
+[15:15:22] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOO????ooooooooo?????OOOO????????????????????SSSSSS
+[15:15:22] OOOO??????????????????OOOO????????????????????SSSSSS
+[15:15:22] OOOO??????????????????OOOO????????????????????SSSSSS
+[15:15:22] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[15:15:22] ______________________________________________
+[15:15:22] | District Roleplay by Nge & Jordan	        |
+[15:15:22] | Gamemode loaded successfully.              |
+[15:15:22] ______________________________________________
+[15:15:22] 169 objects loaded.
+[15:15:22] Number of vehicle models: 16
+[15:15:22] [Script] 0 houses loaded.
+[15:15:22] (SQL) 0 furniture loaded.
+[15:15:22] [Script] 0 garages loaded.
+[15:15:22] [Script] 3 businesses loaded.
+[15:15:22] [Script] 0 entrances loaded.
+[15:15:22] [Script] 0 factions loaded.
+[15:15:22] [Script] 0 lands loaded.
+[15:15:22] [Script] 0 gangs loaded.
+[15:15:22] [Script] 0 points loaded.
+[15:15:22] [Script] 0 turfs loaded.
+[15:15:22] [Script] 0 locations loaded
+[15:15:22] [Script] 0 crews loaded
+[15:15:22] [Script] 0 atms loaded
+[15:15:22] [2025-05-07 15:15]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+
+[15:15:22] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[15:15:22] [Script] 0 vips removed.
+[15:15:51] [connection] 192.168.1.23:62558 requests connection cookie.
+[15:15:52] [connection] incoming connection: 192.168.1.23:62558 id: 0
+[15:15:52] [join] Jordan_Newman has joined the server (0:192.168.1.23)
+[15:15:53] The request failed! The response code was: 301
+[15:16:50] Spawned player on spawn 2
+[15:16:50] OnPlayerSpawn: Jordan Newman[0] has just spawned on District Roleplay for the first time!
+[15:20:14] [part] Jordan_Newman has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:32:47] filterscripts = ""  (string)
+[19:32:47] password = ""  (string)
+[19:32:47] 
+[19:32:47] Server Plugins
+[19:32:47] --------------
+[19:32:47]  Loading plugin: crashdetect
+[19:32:47]   CrashDetect v4.18.1 is OK.
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: pawncmd
+[19:32:47] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: sscanf
+[19:32:47] 
+
+[19:32:47]  ===============================
+
+[19:32:47]       sscanf plugin loaded.     
+
+[19:32:47]          Version:  2.8.2        
+
+[19:32:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:32:47]  ===============================
+
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: streamer
+[19:32:47] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: mysql
+[19:32:47]  >> plugin.mysql: R39-5 successfully loaded.
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: Whirlpool
+[19:32:47]  
+[19:32:47]  ==================
+[19:32:47]  
+[19:32:47]   Whirlpool loaded
+[19:32:47]  
+[19:32:47]  ==================
+[19:32:47]  
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: SKY
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: regex
+[19:32:47] 
+
+[19:32:47] ______________________________________
+
+[19:32:47]  Regular Expression Plugin v0.2.1 loaded
+[19:32:47] ______________________________________
+
+[19:32:47]  By: Fro (c) Copyright <TBG> 2009-2011
+[19:32:47] ______________________________________
+
+[19:32:47]   Loaded.
+[19:32:47]  Loading plugin: YSF
+[19:32:47] ARRAY_ConsoleCommands: 4e43d8
+[19:32:47] 
+
+[19:32:47]  ===============================
+
+[19:32:47]         YSF - kurta999's version R19 loaded
+
+[19:32:47]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[19:32:47]     Server version: 0.3.7 R2-1
+
+[19:32:47]     Operating System: Windows
+
+[19:32:48]     Built on: Mar 11 2017 at 10:32:34
+
+[19:32:48]  ===============================
+
+[19:32:48]   Loaded.
+[19:32:48]  Loading plugin: nativechecker
+[19:32:48]   Loaded.
+[19:32:48]  Loaded 10 plugins.
+
+[19:32:48] 
+[19:32:48] Filterscripts
+[19:32:48] ---------------
+[19:32:48]   Loaded 0 filterscripts.
+
+[19:32:48]  
+[19:32:48]  
+[19:32:48]  
+[19:32:48]  ======================================= 
+[19:32:48]  |                                     | 
+[19:32:48]  |        YSI version 4.00.0001        | 
+[19:32:48]  |        By Alex "Y_Less" Cole        | 
+[19:32:48]  |                                     | 
+[19:32:48]  ======================================= 
+[19:32:48]  
+[19:32:49] District Roleplay is loading...
+[19:32:49] Saving server information on mysql...
+[19:32:49] Get shit on by Anti-DeAMX
+[19:32:49] LSPD Map has been loaded successfully
+[19:32:49] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOO??????????????????OOOO????SSSSSS				   
+[19:32:49] OOOO??????????????????OOOO????SSSSSS				   
+[19:32:49] OOOO????ooooooooo?????OOOO????SSSSSS				   
+[19:32:49] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOO????ooooooooo?????OOOO????????????????????SSSSSS
+[19:32:49] OOOO??????????????????OOOO????????????????????SSSSSS
+[19:32:49] OOOO??????????????????OOOO????????????????????SSSSSS
+[19:32:49] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:32:49] ______________________________________________
+[19:32:49] | District Roleplay by Nge & Jordan	        |
+[19:32:49] | Gamemode loaded successfully.              |
+[19:32:49] ______________________________________________
+[19:32:49] 169 objects loaded.
+[19:32:49] Number of vehicle models: 16
+[19:32:49] [Script] 0 houses loaded.
+[19:32:49] (SQL) 0 furniture loaded.
+[19:32:49] [Script] 0 garages loaded.
+[19:32:49] [Script] 3 businesses loaded.
+[19:32:49] [Script] 0 entrances loaded.
+[19:32:49] [Script] 0 factions loaded.
+[19:32:49] [Script] 0 lands loaded.
+[19:32:49] [Script] 0 gangs loaded.
+[19:32:49] [Script] 0 points loaded.
+[19:32:49] [Script] 0 turfs loaded.
+[19:32:49] [Script] 0 locations loaded
+[19:32:49] [Script] 0 crews loaded
+[19:32:49] [Script] 0 atms loaded
+[19:32:49] [2025-05-07 19:32]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+
+[19:32:49] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[19:32:49] [Script] 0 vips removed.
+[19:33:20] [connection] 192.168.1.23:57111 requests connection cookie.
+[19:33:21] [connection] incoming connection: 192.168.1.23:57111 id: 0
+[19:33:21] [join] Jordan_Newman has joined the server (0:192.168.1.23)
+[19:33:21] The request failed! The response code was: 301
+[19:33:52] [part] Jordan_Newman has left the server (0:1)
+[19:34:02] [connection] 192.168.1.23:62169 requests connection cookie.
+[19:34:03] [connection] incoming connection: 192.168.1.23:62169 id: 0
+[19:34:03] [join] Jordan_Newman has joined the server (0:192.168.1.23)
+[19:34:03] The request failed! The response code was: 301
+[19:34:13] [zcmd] [Jordan_Newman]:ah 
+[19:34:36] [zcmd] [Jordan_Newman]:aduty 
+[19:34:42] [zcmd] [Jordan_Newman]:makeadmin 
+[19:34:44] [part] Jordan_Newman has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:38:41] filterscripts = ""  (string)
+[19:38:41] password = ""  (string)
+[19:38:41] 
+[19:38:41] Server Plugins
+[19:38:41] --------------
+[19:38:41]  Loading plugin: crashdetect
+[19:38:41]   CrashDetect v4.18.1 is OK.
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: pawncmd
+[19:38:41] Pawn.CMD plugin v3.1.3 by urShadow loaded
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: sscanf
+[19:38:41] 
+
+[19:38:41]  ===============================
+
+[19:38:41]       sscanf plugin loaded.     
+
+[19:38:41]          Version:  2.8.2        
+
+[19:38:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:38:41]  ===============================
+
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: streamer
+[19:38:41] 
+
+*** Streamer Plugin v2.9.1 by Incognito loaded ***
+
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: mysql
+[19:38:41]  >> plugin.mysql: R39-5 successfully loaded.
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: Whirlpool
+[19:38:41]  
+[19:38:41]  ==================
+[19:38:41]  
+[19:38:41]   Whirlpool loaded
+[19:38:41]  
+[19:38:41]  ==================
+[19:38:41]  
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: SKY
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: regex
+[19:38:41] 
+
+[19:38:41] ______________________________________
+
+[19:38:41]  Regular Expression Plugin v0.2.1 loaded
+[19:38:41] ______________________________________
+
+[19:38:41]  By: Fro (c) Copyright <TBG> 2009-2011
+[19:38:41] ______________________________________
+
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: YSF
+[19:38:41] ARRAY_ConsoleCommands: 4e43d8
+[19:38:41] 
+
+[19:38:41]  ===============================
+
+[19:38:41]         YSF - kurta999's version R19 loaded
+
+[19:38:41]    (c) 2008 Alex "Y_Less" Cole - (c) 2010 - 2016 kurta999
+
+[19:38:41]     Server version: 0.3.7 R2-1
+
+[19:38:41]     Operating System: Windows
+
+[19:38:41]     Built on: Mar 11 2017 at 10:32:34
+
+[19:38:41]  ===============================
+
+[19:38:41]   Loaded.
+[19:38:41]  Loading plugin: nativechecker
+[19:38:41]   Loaded.
+[19:38:41]  Loaded 10 plugins.
+
+[19:38:41] 
+[19:38:41] Filterscripts
+[19:38:41] ---------------
+[19:38:41]   Loaded 0 filterscripts.
+
+[19:38:41]  
+[19:38:41]  
+[19:38:41]  
+[19:38:41]  ======================================= 
+[19:38:41]  |                                     | 
+[19:38:41]  |        YSI version 4.00.0001        | 
+[19:38:41]  |        By Alex "Y_Less" Cole        | 
+[19:38:41]  |                                     | 
+[19:38:41]  ======================================= 
+[19:38:41]  
+[19:38:42] District Roleplay is loading...
+[19:38:42] Saving server information on mysql...
+[19:38:42] Get shit on by Anti-DeAMX
+[19:38:42] LSPD Map has been loaded successfully
+[19:38:42] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOO??????????????????OOOO????SSSSSS				   
+[19:38:42] OOOO??????????????????OOOO????SSSSSS				   
+[19:38:42] OOOO????ooooooooo?????OOOO????SSSSSS				   
+[19:38:42] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOO????o?????? o?????OOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOO????ooooooooo?????OOOO????????????????????SSSSSS
+[19:38:42] OOOO??????????????????OOOO????????????????????SSSSSS
+[19:38:42] OOOO??????????????????OOOO????????????????????SSSSSS
+[19:38:42] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] OOOOOOOOOOOOOOOOOOOOOOOOOO????SSSSSSSSSSSSSSSSSSSSSS
+[19:38:42] ______________________________________________
+[19:38:42] | District Roleplay by Nge & Jordan	        |
+[19:38:42] | Gamemode loaded successfully.              |
+[19:38:42] ______________________________________________
+[19:38:42] 169 objects loaded.
+[19:38:42] Number of vehicle models: 16
+[19:38:42] [Script] 0 houses loaded.
+[19:38:42] (SQL) 0 furniture loaded.
+[19:38:42] [Script] 0 garages loaded.
+[19:38:42] [Script] 3 businesses loaded.
+[19:38:42] [Script] 0 entrances loaded.
+[19:38:42] [Script] 0 factions loaded.
+[19:38:42] [Script] 0 lands loaded.
+[19:38:42] [Script] 0 gangs loaded.
+[19:38:42] [Script] 0 points loaded.
+[19:38:42] [Script] 0 turfs loaded.
+[19:38:42] [Script] 0 locations loaded
+[19:38:42] [Script] 0 crews loaded
+[19:38:42] [Script] 0 atms loaded
+[19:38:42] [2025-05-07 19:38]
+Error ID: 1146
+Callback: Impound_Load
+Query: SELECT * FROM `impoundlots`
+Error: Table 'osrp.impoundlots' doesn't exist
+
+
+[19:38:42] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[19:38:42] [Script] 0 vips removed.
+[19:38:51] [connection] 192.168.1.23:54864 requests connection cookie.
+[19:38:52] [connection] incoming connection: 192.168.1.23:54864 id: 0
+[19:38:52] [join] Jordan_Newman has joined the server (0:192.168.1.23)
+[19:38:53] The request failed! The response code was: 301
+[19:39:04] [zcmd] [Jordan_Newman]:makemesecretadmin 
+[19:39:04] [2025-05-07 19:39]
+Error ID: 1054
+Callback: 
+Query: UPDATE `users` SET adminlevel = 10, addeddate = '2025-05-07 19:39' WHERE uid = 2
+Error: Unknown column 'addeddate' in 'field list'
+
+
+[19:39:04] AdmCmd: A MySQL error occurred (error 1054). Details written to mysql_error.txt.
+[19:39:04] [2025-05-07 19:39]
+Error ID: 1146
+Callback: 
+Query: INSERT INTO log_secretadmin VALUES(null, NOW(), 'Jordan_Newman (uid: 2) used /makemesecretadmin')
+Error: Table 'osrp.log_secretadmin' doesn't exist
+
+
+[19:39:04] AdmCmd: A MySQL error occurred (error 1146). Details written to mysql_error.txt.
+[19:39:06] [zcmd] [Jordan_Newman]:a .
+[19:39:10] [zcmd] [Jordan_Newman]:ah 
+[19:43:18] [part] Jordan_Newman has left the server (0:1)

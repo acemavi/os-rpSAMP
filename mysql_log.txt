@@ -128,3 +128,61 @@
 [04:52:49] [ERROR] cache_get_field_content_int - invalid datatype
 [04:52:49] [ERROR] cache_get_field_content_int - invalid datatype
 [05:11:28] [WARNING] CMySQLConnection::Disconnect - no connection available
+[00:03:40] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on 'localhost' (10061)
+[00:03:40] [WARNING] CMySQLConnection::Disconnect - no connection available
+[00:03:44] [ERROR] CMySQLConnection::Connect - (error #2003) Can't connect to MySQL server on 'localhost' (10061)
+[00:03:44] [WARNING] CMySQLConnection::Disconnect - no connection available
+[00:05:15] [ERROR] CMySQLQuery::Execute[Impound_Load] - (error #1146) Table 'osrp.impoundlots' doesn't exist
+[00:08:35] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vehiclecmd")
+[00:08:35] [ERROR] cache_get_field_content_int - invalid datatype
+[00:08:35] [WARNING] CMySQLResult::GetRowDataByName - field not found ("crowbar")
+[00:08:35] [ERROR] cache_get_field_content_int - invalid datatype
+[00:08:35] [WARNING] CMySQLResult::GetRowDataByName - field not found ("adminstrike")
+[00:08:35] [ERROR] cache_get_field_content_int - invalid datatype
+[00:08:35] [ERROR] cache_get_field_content_int - invalid datatype
+[00:08:35] [ERROR] cache_get_field_content_int - invalid datatype
+[00:08:35] [ERROR] cache_get_field_content_int - invalid datatype
+[00:10:59] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vehiclecmd")
+[00:10:59] [ERROR] cache_get_field_content_int - invalid datatype
+[00:10:59] [WARNING] CMySQLResult::GetRowDataByName - field not found ("crowbar")
+[00:10:59] [ERROR] cache_get_field_content_int - invalid datatype
+[00:10:59] [WARNING] CMySQLResult::GetRowDataByName - field not found ("adminstrike")
+[00:10:59] [ERROR] cache_get_field_content_int - invalid datatype
+[00:10:59] [ERROR] cache_get_field_content_int - invalid datatype
+[15:04:36] [ERROR] CMySQLQuery::Execute[Impound_Load] - (error #1146) Table 'osrp.impoundlots' doesn't exist
+[15:10:06] [ERROR] CMySQLQuery::Execute[Impound_Load] - (error #1146) Table 'osrp.impoundlots' doesn't exist
+[15:15:22] [ERROR] CMySQLQuery::Execute[Impound_Load] - (error #1146) Table 'osrp.impoundlots' doesn't exist
+[15:16:17] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vehiclecmd")
+[15:16:17] [ERROR] cache_get_field_content_int - invalid datatype
+[15:16:17] [WARNING] CMySQLResult::GetRowDataByName - field not found ("crowbar")
+[15:16:17] [ERROR] cache_get_field_content_int - invalid datatype
+[15:16:17] [WARNING] CMySQLResult::GetRowDataByName - field not found ("adminstrike")
+[15:16:17] [ERROR] cache_get_field_content_int - invalid datatype
+[15:16:17] [ERROR] cache_get_field_content_int - invalid datatype
+[15:16:17] [ERROR] cache_get_field_content_int - invalid datatype
+[15:16:17] [ERROR] cache_get_field_content_int - invalid datatype
+[19:32:49] [ERROR] CMySQLQuery::Execute[Impound_Load] - (error #1146) Table 'osrp.impoundlots' doesn't exist
+[19:33:31] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vehiclecmd")
+[19:33:31] [ERROR] cache_get_field_content_int - invalid datatype
+[19:33:31] [WARNING] CMySQLResult::GetRowDataByName - field not found ("crowbar")
+[19:33:31] [ERROR] cache_get_field_content_int - invalid datatype
+[19:33:31] [WARNING] CMySQLResult::GetRowDataByName - field not found ("adminstrike")
+[19:33:31] [ERROR] cache_get_field_content_int - invalid datatype
+[19:33:31] [ERROR] cache_get_field_content_int - invalid datatype
+[19:34:11] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vehiclecmd")
+[19:34:11] [ERROR] cache_get_field_content_int - invalid datatype
+[19:34:11] [WARNING] CMySQLResult::GetRowDataByName - field not found ("crowbar")
+[19:34:11] [ERROR] cache_get_field_content_int - invalid datatype
+[19:34:11] [WARNING] CMySQLResult::GetRowDataByName - field not found ("adminstrike")
+[19:34:11] [ERROR] cache_get_field_content_int - invalid datatype
+[19:34:11] [ERROR] cache_get_field_content_int - invalid datatype
+[19:38:42] [ERROR] CMySQLQuery::Execute[Impound_Load] - (error #1146) Table 'osrp.impoundlots' doesn't exist
+[19:39:00] [WARNING] CMySQLResult::GetRowDataByName - field not found ("vehiclecmd")
+[19:39:00] [ERROR] cache_get_field_content_int - invalid datatype
+[19:39:00] [WARNING] CMySQLResult::GetRowDataByName - field not found ("crowbar")
+[19:39:00] [ERROR] cache_get_field_content_int - invalid datatype
+[19:39:00] [WARNING] CMySQLResult::GetRowDataByName - field not found ("adminstrike")
+[19:39:00] [ERROR] cache_get_field_content_int - invalid datatype
+[19:39:00] [ERROR] cache_get_field_content_int - invalid datatype
+[19:39:04] [ERROR] CMySQLQuery::Execute[] - (error #1054) Unknown column 'addeddate' in 'field list'
+[19:39:04] [ERROR] CMySQLQuery::Execute[] - (error #1146) Table 'osrp.log_secretadmin' doesn't exist

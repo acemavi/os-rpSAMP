@@ -1,0 +1,7 @@
+{
+    "pawn.compilerPath": "C:\\Users\\serna\\Documents\\GitHub\\Project-Gamemode\\pawno",
+    "[pawn]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
